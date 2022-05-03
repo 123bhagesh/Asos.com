@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+        font-family: 'Poppins', sans-serif;
+
+       }
+        #container{
+            width: 86%;
+            margin: auto;
+            display: grid;
+            grid-template-columns: repeat(4,24.3%);
+            justify-content: space-between;
+            /* margin-bottom: 20px; */
+            /* column-gap: 55px; */
+            border: 1px solid black;
+            
+            
+        }
+        #div1{
+            /* border: 1px solid red; */
+            width: 100%;
+            margin-bottom: 30px;
+            cursor: pointer;
+        }
+        #div1>img{
+            width: 313px;
+            margin-bottom: -5px;
+            /* height: 300px; */
+
+        }
+        #div1>:nth-child(2){
+            margin-top: 10px;
+            margin-left: 2px;
+            font-size: 14px;
+            letter-spacing: 0.5px;
+            line-height: 20px;
+            /* color: #2D2D2D; */
+            color: rgb(135, 117, 102);
+
+            
+        }
+        #div1>:nth-child(3){
+     
+            margin-left: 2px;
+            margin-bottom: 1px;
+            font-weight: 600;
+            font-size: 14px;
+            letter-spacing: 1px;
+            color: #666666;
+            /* color: rgb(148,131,116); */
+            
+        }
+        #sortDiv{
+            width: 100%;
+            height: 50px;
+            background: rgb(238,238,238);
+            margin-bottom: 50px;
+            padding-left: 103px;
+            
+        }
+        #sorter{
+            height: 37px;
+            width: 200px;
+            margin-top: 7px;
+            border-left: none;
+            border-right: none;
+            background: rgb(238,238,238);
+        }
+        #sorter>option{
+            font-size: 17px;
+            padding: 10px;
+        }
+        #topName{
+            text-align: center;
+            font-size: 25px;
+            font-weight: 600;
+        }
+        #topNewIn{
+            display: flex;
+            text-align: center;
+            justify-content: center;
+            margin-bottom: 7px;
+        }
+        #topNewIn>div{
+            /* width: 170px;
+            height: 20px; */
+            /* border-radius: 20px; */
+            /* border: 1px solid red; */
+            /* background-color: rgb(238,238,238); */
+            margin-bottom: 5px;
+            padding: 5px 10px;
+            text-align: center;
+            color: white;
+            text-align: center;
+
+        }
+        #topNewIn>div>a{
+            color: black;
+            text-decoration: none;
+            font-size: 11px;
+            font-weight: 700;
+            letter-spacing: 1.6px;
+            background-color: rgb(238,238,238);
+            padding: 8px 19px;
+             border-radius: 20px;
+            
+
+        }
+
+        /* top Search bar */
+        *{
+    font-family: 'Poppins', sans-serif;
+    
+
+}
+a{
+    text-decoration: none;
+    color: white;
+    
+}
+#navebar_TopDiv_Mean_Womens{
+    height: 59px;
+    width: 100%;
+    /* border: 1px solid red; */
+    display: flex;
+   padding-left: 100px;
+   background-color: rgb(45,45,45);
+}
+#navebar_TopDiv_Mean_Womens>:nth-child(1){
+    width: 130px;
+    /* border: 1px solid violet; */
+    background-color: rgb(45,45,45);
+    padding-bottom: -10px;
+    padding-bottom: 30px;
+ 
+
+}
+
+#navebar_TopDiv_Mean_Womens>:nth-child(1)>h1{
+    color: white;
+    text-decoration: none;
+    margin-bottom: 5px;
+    font-size: 55px;
+    margin-top: -7px;
+    margin-bottom: 25px;
+    letter-spacing: -7px;
+    font-weight: 500;
+    margin-left: 8px;
+    
+    
+    
+}
+#navebar_TopDiv_Mean_Womens>:nth-child(1)>h1>a{
+    color: white;
+
+}
+#navebar_TopDiv_Mean_Womens>:nth-child(2){
+    width: 110px;
+    /* border: 1px solid violet; */
+    text-align: center;
+    cursor: pointer;
+}
+#navebar_TopDiv_Mean_Womens>:nth-child(2):hover{
+
+    background-color: #666666;
+    
+}
+#navebar_TopDiv_Mean_Womens>:nth-child(2)>h4>a{
+    color: white;
+    letter-spacing: 1.4px;
+
+}
+#navebar_TopDiv_Mean_Womens>:nth-child(3){
+    width: 110px;
+    text-align: center;
+    letter-spacing: 2px;
+    cursor: pointer;
+    margin-right: 800px;
+}
+#navebar_TopDiv_Mean_Womens>:nth-child(3):hover{
+
+background-color: #666666;
+
+}
+#navebar_TopDiv_Mean_Womens>:nth-child(4){
+    width: 51px;
+    /* border: 1px solid rgb(255, 255, 255); */
+    background-color: rgb(45,45,45);
+    border-top: none;
+    border-bottom: none;
+    border: 3px solid rgb(236, 255, 67);
+    border-top: none;
+    border-bottom: none;
+}
+#navebar_TopDiv_Mean_Womens>:nth-child(4):hover{
+    /* background: #fff; */
+    color: #000;
+        border: 2px solid rgb(255, 255, 255);
+}
+
+    </style>
+</head>
+<body>
+
+    <div id="navebar_TopDiv_Mean_Womens">
+
+        <div id="site_Name"> <h1><a href="/index.html">asos</a></h1></div>
+        <div id="womensButton"><h4><a href="womens.html">WOMEN</a></h4></div>
+        <div id="mensButton"><h4><a href="index.html">MEN</a></h4></div>
+
+        <div><a href="cartpage.html"><img style="height: 55px;margin-top: 0px;margin-left:px;" src="/acc_bag3 - Copy.png"></a></div>
+    
+    </div>
+
+
+    <div id="topName">
+        <p>Men's New in</p>
+    </div>
+
+    <div id="topNewIn">
+        <div><a href="">NEW IN: CLOTHING</a></div>
+        <div><a href="">NEW IN: SHOES</a></div>
+        <div><a href="">NEW IN: ACCESSORIES</a></div>
+        <div><a href="">NEW IN: FACE + BODY</a></div>
+    </div>
+
+    <div id="sortDiv">
+        <select id="sorter">
+            <option value="">Sort</option>
+            <option value="l2h">Price, Low To High</option>
+            <option value="h2l">Price, High To Low</option>
+            <option value="a2z">Alphabetically, A To Z</option>
+            <option value="z2a">Alphabetically, Z To A</option>
+        </select>
+    </div>
+
+    <div id="hairDiv" style="grid-template-columns: repeat(4, 22%);grid-template-rows: repeat(3, 450px);gap: 40px 17px;"></div>
+
+    <div id="container"></div>
+    
+</body>
+</html>
+<script >
+
+// let container =document.getElementById("container")
+// Mens_Clothing.forEach(function(elem){
+
+//     div1=document.createElement("div")
+
+//     let p=document.createElement("p")
+
+//     let img=document.createElement("img")
+//     img.src=elem.image
+
+//     div1.append(p,img)
+
+
+//     container.append(div)
+// })
+
+
+
+  let Mens_Clothing =
+
+[
+{"name":"541 ASOS DESIGN lounge trousers in woven stripe","price":"15","image":"https://images.asos-media.com/products/asos-design-lounge-trousers-in-woven-stripe/201179743-1-multi?$n_480w$&wid=476&fit=constrain"},
+{"name":"Carhartt WIP vista tie dye socks in purple","price":"21","image":"https://images.asos-media.com/products/carhartt-wip-vista-tie-dye-socks-in-purple/201995418-1-purple?$n_480w$&wid=476&fit=constrain"},
+{"name":"124 ASOS DESIGN regular revere viscose shirt in bright blue","price":"22","image":"https://images.asos-media.com/products/asos-design-regular-revere-viscose-shirt-in-bright-blue/202440625-1-cobaltblue?$n_480w$&wid=476&fit=constrain"},
+{"name":"ASOS DESIGN boxy oversized shirt in yellow and pink painted check","price":"26","image":"https://images.asos-media.com/products/asos-design-boxy-oversized-shirt-in-yellow-and-pink-painted-check/202579390-1-yellow?$n_480w$&wid=476&fit=constrain"},
+{"name":"476 Abercrombie & Fitch back gel logo heavyweight oversized t-shirt in white","price":"29","image":"https://images.asos-media.com/products/abercrombie-fitch-back-gel-logo-heavyweight-oversized-t-shirt-in-white/202851446-1-white?$n_480w$&wid=476&fit=constrain"},
+{"name":"68 Hollister 5 pack central script logo stripe & plain t-shirt in multi","price":"65","image":"https://images.asos-media.com/products/hollister-5-pack-central-script-logo-stripe-plain-t-shirt-in-multi/202801389-1-multi?$n_480w$&wid=476&fit=constrain"},
+{"name":"Hollister icon logo stripe & contrast collar polo in white","price":"25","image":"https://images.asos-media.com/products/hollister-icon-logo-stripe-contrast-collar-polo-in-white/202801301-1-white?$n_480w$&wid=476&fit=constrain"},
+{"name":"Hollister outdoors central logo print t-shirt in black","price":"19","image":"https://images.asos-media.com/products/hollister-outdoors-central-logo-print-t-shirt-in-black/202800542-1-blackwred?$n_480w$&wid=476&fit=constrain"},
+{"name":"Hollister outdoors central & back logo print t-shirt in white","price":"19","image":"https://images.asos-media.com/products/hollister-outdoors-central-back-logo-print-t-shirt-in-white/202800428-1-white?$n_480w$&wid=476&fit=constrain"},
+{"name":"Only & Sons vest with Paradise back print in navy","price":"15","image":"https://images.asos-media.com/products/only-sons-vest-with-paradise-back-print-in-navy/202729846-1-darknavy?$n_480w$&wid=476&fit=constrain"},
+{"name":"Only & Sons vest with mandala back print in white","price":"15","image":"https://images.asos-media.com/products/only-sons-vest-with-mandala-back-print-in-white/202729794-1-white?$n_480w$&wid=476&fit=constrain"},
+{"name":"Only & Sons vest with Seoul back print in black","price":"15","image":"https://images.asos-media.com/products/only-sons-vest-with-seoul-back-print-in-black/202729310-1-black?$n_480w$&wid=476&fit=constrain"},
+{"name":"Abercrombie & Fitch 3D icon logo slim fit pique polo in red","price":"35","image":"https://images.asos-media.com/products/abercrombie-fitch-3d-icon-logo-slim-fit-pique-polo-in-red/202666080-1-red?$n_480w$&wid=476&fit=constrain"},
+{"name":"Abercrombie & Fitch 3D icon logo slim fit pique polo in green","price":"35","image":"https://images.asos-media.com/products/abercrombie-fitch-3d-icon-logo-slim-fit-pique-polo-in-green/202666051-1-green?$n_480w$&wid=476&fit=constrain"},
+{"name":"Abercrombie & Fitch 3D icon logo slim fit pique polo shirt in light blue","price":"35","image":"https://images.asos-media.com/products/asos-design-skinny-denim-shacket-in-light-wash/201370677-1-lightblue?$n_480w$&wid=476&fit=constrain"},
+{"name":"Abercrombie & Fitch 3D icon logo slim fit pique polo shirt in light blue","price":"35","image":"https://images.asos-media.com/products/abercrombie-fitch-3d-icon-logo-slim-fit-pique-polo-shirt-in-light-blue/202666035-1-lightblue?$n_480w$&wid=476&fit=constrain"},
+{"name":"Only & Sons revere shirt in aztec print","price":"26","image":"https://images.asos-media.com/products/only-sons-revere-shirt-in-aztec-print/202626467-1-black?$n_480w$&wid=476&fit=constrain"},
+{"name":"Only & Sons revere shirt in checkerboard print","price":"26","image":"https://images.asos-media.com/products/only-sons-revere-shirt-in-checkerboard-print/202626246-1-pomegranite?$n_480w$&wid=476&fit=constrain"},
+{"name":"Only & Sons revere shirt with flower border print in navy","price":"26","image":"https://images.asos-media.com/products/only-sons-revere-shirt-with-flower-border-print-in-navy/202626238-1-darknavy?$n_480w$&wid=476&fit=constrain"},
+{"name":"Only & Sons knitted stripe t-shirt in navy and white","price":"26","image":"https://images.asos-media.com/products/only-sons-knitted-stripe-t-shirt-in-navy-and-white/202624710-1-darknavy?$n_480w$&wid=476&fit=constrain"},
+{"name":"Carhartt WIP pocket t-shirt in white","price":"37","image":"https://images.asos-media.com/products/carhartt-wip-pocket-t-shirt-in-white/202587946-1-white?$n_480w$&wid=476&fit=constrain"},
+{"name":"251 ASOS DESIGN relaxed revere shirt in vintage inspired floral print","price":"27","image":"https://images.asos-media.com/products/asos-design-skinny-denim-shirt-with-rips-in-light-blue/201607270-1-blue?$n_480w$&wid=476&fit=constrain"},
+{"name":"New Era New York Yankees oversized t-shirt in lilac","price":"32","image":"https://images.asos-media.com/products/new-era-new-york-yankees-oversized-t-shirt-in-lilac/202122253-1-purple?$n_480w$&wid=476&fit=constrain"}]
+
+
+
+
+/////
+var hairDiv = document.getElementById("container");
+
+var cartArr = [];
+
+function appendProduct(Mens_Clothing) {
+  hairDiv.innerHTML = null;
+  Mens_Clothing.forEach(function (elem) {
+
+    let box = document.createElement("div");
+    box.setAttribute("id","div1")
+
+    let image = document.createElement("img");
+    image.src = elem.image;
+
+    let name = document.createElement("p");
+    name.innerText = elem.name;
+
+    let price = document.createElement("p");
+    price.innerText = "£"+""+ elem.price+".00"
+
+    box.addEventListener("click", function () {
+    //   event.preventDefault();
+      cartArr.push(elem);
+      localStorage.setItem("cartArr", JSON.stringify(cartArr));
+      console.log(cartArr);
+      alert("Product added to the cart!");
+    })
+
+ 
+    box.append(image, name, price);
+    hairDiv.append(box);
+  });
+}
+appendProduct(Mens_Clothing);
+
+document.querySelector("#sorter").addEventListener("click", sortByPrice);
+function sortByPrice() {
+    Mens_Clothing.map(function (elem) {
+        var sorting = document.querySelector("#sorter").value;
+        console.log(sorting);
+        if (sorting == "l2h") {
+            Mens_Clothing.sort(function (a, b) { return a.price - b.price })
+            appendProduct(Mens_Clothing)
+        }
+        else if (sorting == "h2l") {
+            Mens_Clothing.sort(function (a, b) { return b.price - a.price })
+            appendProduct(Mens_Clothing)
+        }
+
+        else if (sorting == "a2z") {
+            function SortArray(x, y) {
+                if (x.name < y.name) { return -1; }
+                if (x.name > y.name) { return 1; }
+                return 0;
+            }
+            var s = Mens_Clothing.sort(SortArray)
+            appendProduct(s)
+        }
+        else if (sorting == "z2a") {
+            function SortArray(x, y) {
+                if (x.name > y.name) { return -1; }
+                if (x.name < y.name) { return 1; }
+                return 0;
+            }
+            var sort = Mens_Clothing.sort(SortArray)
+            appendProduct(sort)
+        }
+    })
+}
+
+</script>

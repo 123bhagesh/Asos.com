@@ -18,7 +18,7 @@ let women_navbar2 =()=>{
                     </li>
         
                     <li>
-                      <a href = "#" class = "menu-link">
+                      <a href = "clothing.html" class = "menu-link">
                         New in
                         <span class = "drop-icon">
                           <!-- <i class = "fas fa-chevron-down"></i> -->
@@ -29,8 +29,8 @@ let women_navbar2 =()=>{
                         <div class = "sub-menu-item">
                           <h4>NEW PRODUCTS</h4>
                           <ul>
-                            <li><a href = "#">View all</a></li>
-                            <li><a href = "/clothing.html">Clothing</a></li>
+                            <li><a href = "clothing.html">View all</a></li>
+                            <li><a href = "clothing.html">Clothing</a></li>
                             <li><a href = "#">Shoes</a></li>
                             <li><a href = "#">Accessories</a></li>
                             <li><a href = "#">Face + Body</a></li>

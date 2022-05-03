@@ -11,9 +11,7 @@
 // n.innerHTML=navbar();
 // console.log(n)
 
-
-
-import {men_navbar} from "../components/mensnavbar.js"
+import {men_navbar} from"../components/mensnavbar.js"
 
 let m= document.getElementById("men-mega-navbar");
 m.innerHTML=men_navbar()

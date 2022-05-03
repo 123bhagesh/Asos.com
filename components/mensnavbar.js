@@ -28,7 +28,7 @@ let men_navbar=()=>{
                   <h4>NEW PRODUCTS</h4>
                   <ul>
                     <li><a href = "#">View all</a></li>
-                    <li><a href = "#">Clothing</a></li>
+                    <li><a href = "Mclothing.html">Clothing</a></li>
                     <li><a href = "#">Shoes</a></li>
                     <li><a href = "#">Accessories</a></li>
                     <li><a href = "#">Face + Body</a></li>

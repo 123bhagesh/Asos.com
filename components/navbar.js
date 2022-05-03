@@ -30,7 +30,7 @@ let women_navbar2 =()=>{
                           <h4>NEW PRODUCTS</h4>
                           <ul>
                             <li><a href = "#">View all</a></li>
-                            <li><a href = "#">Clothing</a></li>
+                            <li><a href = "/clothing.html">Clothing</a></li>
                             <li><a href = "#">Shoes</a></li>
                             <li><a href = "#">Accessories</a></li>
                             <li><a href = "#">Face + Body</a></li>

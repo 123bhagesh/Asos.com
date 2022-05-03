@@ -1,0 +1,122 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    
+
+}
+a{
+    text-decoration: none;
+    color: white;
+    
+}
+#navebar_TopDiv_Mean_Womens{
+    height: 59px;
+    width: 100%;
+    /* border: 1px solid red; */
+    display: flex;
+   padding-left: 100px;
+   background-color: rgb(45,45,45);
+}
+#navebar_TopDiv_Mean_Womens>:nth-child(1){
+    width: 130px;
+    /* border: 1px solid violet; */
+    background-color: rgb(45,45,45);
+    padding-bottom: -10px;
+    padding-bottom: 30px;
+ 
+
+}
+
+#navebar_TopDiv_Mean_Womens>:nth-child(1)>h1{
+    color: white;
+    text-decoration: none;
+    margin-bottom: 5px;
+    font-size: 55px;
+    margin-top: -10px;
+    margin-bottom: 25px;
+    letter-spacing: -7px;
+    font-weight: 500;
+    margin-left: 8px;
+    
+    
+}
+#navebar_TopDiv_Mean_Womens>:nth-child(1)>h1>a{
+    color: white;
+
+}
+#navebar_TopDiv_Mean_Womens>:nth-child(2){
+    width: 110px;
+    /* border: 1px solid violet; */
+    text-align: center;
+    padding-top: 19px;
+    cursor: pointer;
+}
+
+#navebar_TopDiv_Mean_Womens>:nth-child(2)>h4>a{
+    color: white;
+    letter-spacing: 1.4px;
+
+}
+#navebar_TopDiv_Mean_Womens>:nth-child(3){
+    width: 110px;
+    /* border: 1px solid rgb(179, 124, 179); */
+    /* background-color: rgb(45,45,45); */
+    text-align: center;
+    padding-top: 19px;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+#navebar_TopDiv_Mean_Womens>:nth-child(4){
+    width: 780px;
+    border: 1px solid rgb(32, 7, 32);
+    background-color: rgb(45,45,45);
+    
+}
+
+#search{
+    width: 730px;
+    height: 35px;
+    border-radius: 30px;
+    border: 1px solid black;
+    margin-top: 8px;
+    margin-left: 25px;
+    padding-left: 10px;
+    font-size: 16px;
+
+}
+#navebar_TopDiv_Mean_Womens>:nth-child(5){
+    width: 51px;
+    /* border: 1px solid rgb(255, 255, 255); */
+    background-color: rgb(45,45,45);
+    border-top: none;
+    border-bottom: none;
+    
+}
+#navebar_TopDiv_Mean_Womens>:nth-child(5):hover{
+    /* background: #fff; */
+    color: #000;
+        border: 1px solid rgb(255, 255, 255);
+}
+#navebar_TopDiv_Mean_Womens>:nth-child(6){
+    width: 51px;
+    /* border: 1px solid rgb(255, 255, 255); */
+    background-color: rgb(45,45,45);
+    border-top: none;
+    border-bottom: none;
+    
+}
+.header button{
+    margin: 1rem;
+    font-size: 1rem;
+    text-transform: uppercase;
+    background: #000;
+    color: #fff;
+    border: none;
+    padding: 0.8rem 1.5rem;
+    transition: all 0.5s ease;
+    cursor: pointer;
+}
+#navebar_TopDiv_Mean_Womens>:nth-child(6):hover{
+    /* background: #fff; */
+    color: #000;
+        border: 1px solid rgb(255, 255, 255);
+}

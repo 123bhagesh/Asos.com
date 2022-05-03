@@ -1,0 +1,316 @@
+*{
+    font-family: 'Poppins', sans-serif;
+
+}
+#indexDiv0{
+    height: 45px;
+    width: 100%;
+    /* border: 1px solid red; */
+    display: flex;
+    margin-bottom: 1px;
+    
+}
+#indexDiv0>:nth-child(1){
+    height: 100%;
+    width: 50%;
+    /* border: 1px solid salmon; */
+    font-size: 12px;
+    letter-spacing: 2px;
+    font-weight: 700;
+    text-align: center;
+    background-color: #9cf0e0 ;
+
+ 
+}
+#indexDiv0>:nth-child(1)>p{
+    margin-bottom: -5px;
+    margin-top: 0px;
+}
+#indexDiv0>:nth-child(2){
+    height: 100%;
+    width: 50%;
+    /* border: 1px solid salmon; */
+    font-size: 12px;
+    letter-spacing: 2px;
+    font-weight: 700;
+    text-align: center;
+    background: black;
+    color: white;
+}
+#indexDiv0>:nth-child(2)>p{
+    margin-bottom: -5px;
+    margin-top: 3px;
+    
+}
+#indexDiv1{
+    width: 100%;
+    height: 233px;
+    /* border: 1px solid black; */
+    background-color: #9cf0e0 ;
+    margin: auto;
+    justify-content: center;
+    text-align: center;
+
+}
+.indexChild_11{
+    margin-top: 27px;
+    margin-bottom: -10px;
+}
+.indexChild_12{
+
+    margin-bottom: -5px;
+    margin-top: 16px;
+    font-family: 'Poppins', sans-serif;
+    font-weight:bolder;
+    font-style: italic;
+
+}
+.indexChild_13{
+    margin-top: -10px;
+    margin-bottom: -7px;
+    font-family: 'Poppins', sans-serif;
+    font-weight:bolder;
+    font-style: italic;
+    
+
+}
+.indexChild_14{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-family: 'Poppins', sans-serif;
+    font-weight:550;
+    font-size: 20px;
+
+}
+.indexChild_15{
+    margin-top: 5px ;
+    font-size: 11px;
+    margin-bottom: 8px;
+}
+#indexDiv2{
+    margin-top: 45px;
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+}
+#indexDiv3{
+    height: 510px;
+    width: 85%;
+    /* border: 1px solid red; */
+    margin: auto;
+    margin-top: 28px;
+    margin-bottom: 35px;
+    text-align: center;
+}
+.indexChild_31{
+    height: 510px;
+    width: 99%;
+    cursor: pointer;
+
+}
+/* .indexChild_31{
+    height: 500px;
+    margin-top: 30px;
+    margin-left: 97px;
+    cursor: pointer;
+
+} */
+#indexDiv4{
+    width: 70%;
+    margin: auto;
+    cursor: pointer;
+    /* border: 2px solid green; */
+    margin-top: 20px;
+    margin-bottom: 40px;
+
+}
+.indexChild_41{
+    height: 650px;
+    /* margin-left: 220px; */
+    display: flex;
+    justify-content: space-between;
+}
+
+#indexDiv41{
+    height: 160px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 100px;
+    /* border: 1px solid rgb(131, 121, 9); */
+    margin: auto;
+}
+.indexDiv411{
+    height: auto;
+    width: 50%;
+    display:grid;
+    /* grid-template-columns: repeat(1, 300px); */
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    /* font-weight:bolder; */
+    /* letter-spacing: 1.2px; */
+    /* border: 1px solid red; */
+}
+#h2child{
+    font-family: 'Poppins', sans-serif;
+    font-weight:600;
+     letter-spacing: 1.2px;
+     font-size: 28px; 
+     margin-top: 5px;
+     margin-bottom: -5px;
+
+}
+#shopNOW3{
+    margin: auto;
+    padding: 20px 45px;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 1.8px;
+    border: 2px solid black;
+    /* background-color: white; */
+}
+#indexDiv5{
+    height: 270px;
+    width: 80%;
+    /* border: 1px solid black; */
+    margin: auto;
+    margin-top: 17px;
+    margin-bottom: 60px;
+    font-family: 'Poppins', sans-serif;
+
+    text-align: center;
+}
+#indexDiv5>h2{
+    font-size: 25px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+#indexDiv5>img{
+    height: 190px;
+    margin-left: 5px;
+
+}
+#footerDiv1{
+    height: 45px;
+    width: 100%;
+    margin: auto;
+    padding-top: 10px;
+    border: 1px solid rgb(174, 174, 180);
+   
+    margin-bottom: 15px;
+    justify-content: space-between;
+    text-align: center;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+}
+#footerDiv1>i{
+    margin-left: 51px;
+}
+#footerDiv1>:nth-child(1){
+    color: rgb(64, 64, 177);
+
+}
+#footerDiv1>:nth-child(2){
+    color: blueviolet;
+}
+#footerDiv1>:nth-child(3){
+    color: rgb(221, 239, 61);
+
+}
+#footerDiv1>:nth-child(4){
+    color: rgb(24, 100, 215);
+}
+#footerDiv1>:nth-child(5){
+    color: rgb(49, 17, 17);
+}
+#footerDiv1>:nth-child(6){
+    color: rgb(24, 100, 215);
+
+}
+#footerDiv1>:nth-child(7){
+    color: rgb(10, 87, 175);
+}
+#footerDiv2{
+    height: 210px;
+    width: 100%;
+    display: flex;
+    /* border: 1px solid red; */
+    gap: 35px;
+    padding-left: 120px;
+    background-color:rgb(238,238,238);
+}
+#footerDiv2>div{
+    height: 190px;
+    width: 19%;
+    /* border: 1px solid hotpink; */
+    display: grid;
+    text-decoration: none;
+    /* max-width: 1366px; */
+    /* padding: 10px; */
+    /* padding-bottom: 20px; */
+    box-sizing: border-box;
+    /* margin: 0 auto;
+    display: flex; */
+}
+#footerDiv2>div>h5{
+    color: rgb(102,102,105);
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin-top: 25px;
+    margin-bottom: -10px;
+}
+#footerDiv2>div>p{
+    height: auto;
+    color: rgb(129, 131, 136);
+    font-size: 13.5px;
+    text-decoration: none;
+    margin-top: -10px;
+    margin-bottom: -100px;
+
+}
+p>a{
+    text-decoration: none;
+    color: rgb(129, 131, 136);
+
+}
+#footerDiv3{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 125px;
+    font-size: 12px;
+    background-color: rgb(221,221,221);
+    margin-bottom: 0px;
+    /* padding: 4px ; */
+}
+.indexDiv411 button{
+    margin: 1rem;
+    font-size: 1rem;
+    text-transform: uppercase;
+    background: rgb(251, 235, 235);
+    color: rgb(10, 5, 5);
+    border: none;
+    padding: 0.8rem 1.5rem;
+    transition: all 0.5s ease;
+    cursor: pointer;
+}
+.indexDiv411 button:hover{
+    background: rgb(185, 173, 11);
+    color: rgb(240, 6, 6);
+}
+.indexDiv411 button{
+    margin: 1rem;
+    font-size: 1rem;
+    text-transform: uppercase;
+    background: white;
+    color: black;
+    border: none;
+    padding: 0.8rem 1.5rem;
+    transition: all 0.5s ease;
+    cursor: pointer;
+}
+.indexDiv411 button:hover{
+    background: black;
+    color: white;
+}
+

@@ -19,12 +19,14 @@
   
   .dropdown-content {
     display: none;
-    /* position: absolute; */
+    position: absolute;
     /* background-color: #f1f1f1; */
     background-color: whitesmoke;
     min-width: 160px;
+    /* height: 00px; */
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
+    margin-top: 0px;
   }
   
   .dropdown-content a {

@@ -47,7 +47,7 @@
     .navbar{
         background-color: rgb(82,80,80);
         /* padding: 0 1rem; */
-        position: fixed;
+        position: relative;
         top: 0;
         left: 0;
         width: 1358px;
@@ -55,7 +55,7 @@
         /* height: 60px; */
         display: flex;
         flex-direction: column;
-        z-index: 10;
+        /* z-index: 10; */
         
     }
     .brand-and-icon{

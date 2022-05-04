@@ -42,9 +42,10 @@
 
         }
         #cartmainDiv>:nth-child(2){
+    
             width: 38%;
             /* border: 1px solid rgb(107, 174, 40); */
-            height: 340px;
+            height: 390px;
             background: white;
 
             
@@ -101,10 +102,10 @@
         }
         #subTotalDiv>:nth-child(2){
             width: 25%;
-            /* border: 1px solid rgb(38, 246, 128); */
+            /* border: 1px solid rgb(246, 159, 38); */
             text-align: end;
             padding-top: 7px;
-            /* padding-right: 30px; */
+            padding-right: 30px;
             font-weight: 600;
             letter-spacing: 2px;
      
@@ -170,13 +171,29 @@
         #totalDiv>:nth-child(4){
             width: 82%;
             height: 45px;
+            /* border: 1px solid rgb(4, 105, 4); */
+            /* justify-content: space-between; */
+            display: flex;
+            margin: auto;
+            /* padding: 3px 40px; */
+            margin-top: 15px;
+            
+        }
+        #totalDiv>:nth-child(4)>select{
+            width: 285px;
+            border-left: none;
+            border-right: none;
+            border-top: none ;
+        }
+        #totalDiv>:nth-child(5){
+            width: 82%;
+            height: 45px;
             /* border: 1px solid rgb(131, 232, 131); */
             justify-content: space-between;
             display: flex;
             margin: auto;
             /* padding: 3px 40px; */
-            margin-top: 35px;
-            
+            margin-top: 25px;         
 
         }
         #checkoutDiv>button{
@@ -187,11 +204,12 @@
             color: white;
             background: rgb(1,136,73);
             cursor: pointer;
+            border: none;
         }
         #checkoutDiv>button:hover{
             background: rgb(4, 99, 55);
         } 
-        #totalDiv>:nth-child(5){
+        #totalDiv>:nth-child(6){
             width: 80%;
             /* border: 1px solid red; */
             margin: auto;
@@ -211,24 +229,28 @@
             /* margin-top: 30px; */
             margin-bottom: 11px;
             background: white;
-            border: 1px solid rgb(159, 4, 82);
+            border: 1px solid rgb(117, 115, 116);
             margin: auto;
             justify-content: space-between;
  
             padding-top: 20px;
             /* margin-bottom: 10px; */
+            border-left: none;
+            border-right: none;
+            border-top: none;
+
 
         }
         #imageDiv11{
             width: 113px;
             height: 145px;
             
-            border: 2px solid rgb(94, 107, 20);
+            /* border: 2px solid rgb(94, 107, 20); */
         }
         #dataDiv22{
             width: 270px;
             height: 145px;
-            border: 2px solid rgb(3, 108, 111);
+            /* border: 2px solid rgb(3, 108, 111); */
             /* line-height: 16px; */
             
 
@@ -236,7 +258,7 @@
         #iconDiv33{
             width: 60px;
             height: 145px;
-            border: 2px solid green;
+            /* border: 2px solid green; */
             text-align: end;
         }
         #elemPrice44{
@@ -276,15 +298,21 @@
             <div id="cartDataAppend"></div>
             <div id="subTotalDiv">
                 <div><p>SUB-TOTAL</p></div>
-                <div id="subTotal"><p id="subtotalP"> data </p></div>
+                <div id="subTotal"><p id="subtotalP1"> 0.00 </p></div>
             </div>    
         </div>
     
         <div id="totalDiv">
             <div> <p>TOTAL</p></div>
 
-            <div><p>Sub-total</p>    <p>ss</p> </div>
+            <div><p>Sub-total</p>    <p id="subtotalP2">0.00</p> </div>
             <div><p>Devilery</p></div>
+            <div>
+                <select name="" id="SelectTag">
+                    <option value="">Standard Delivery (£6.00)</option>
+                    <option value="">Express Delivery (£20.00)</option>
+                </select>
+            </div>
             <div id="checkoutDiv"><button>CHECKOUT</button></div>
             <div><img style="width: 285px; margin: auto;" src="/we-Accept-cart-Img.PNG" alt=""></div>
         </div>
@@ -304,12 +332,23 @@ var asosCart = JSON.parse(localStorage.getItem('asosCartData')) || [];
 
 console.log(asosCart)
 
+var pri=0;
+let totalPrice1=document.getElementById("subtotalP1")
+let totalPrice2=document.getElementById("subtotalP2")
+
+
 function appendProducts(asosCart ) {
+
 
     cartData.innerHTML = null;
 
-    asosCart.forEach(function (elem,index) {
+    asosCart.map(function (elem,index) {
 
+        
+    pri=pri + (+elem.price);
+    totalPrice1.innerText= "£"+pri+".00"
+
+    totalPrice2.innerHTML= "£"+pri+".00"
     
     let box=document.createElement("div");
     box.setAttribute("id","boxDiv11");   
@@ -352,9 +391,20 @@ function appendProducts(asosCart ) {
     imageRemove.setAttribute("id","elemImageCross11")
 
     imageRemove.addEventListener("click",function(){
+
+        
+        // pri = pri-(+elem.price)
+        // total.innerText=pri
     asosCart.splice(index,1);
+
+    // pri=pri - (+elem.price);
+    // totalPrice.innerText= "£"+pri+".00"
+
     localStorage.setItem("asosCartData", JSON.stringify(asosCart));
     document.querySelector("#cartDataAppend").innerHTML='';
+
+    alert("Product removed from the cart");
+    location.reload();
     appendProducts(asosCart);
     
     })

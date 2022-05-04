@@ -103,15 +103,18 @@
 
 <script >
 
-var hairDiv = document.getElementById("container1");
+var container11 = document.getElementById("container1");
 
 var cartArr = JSON.parse(localStorage.getItem('asosArr')) || [];
 
+var asosCart = JSON.parse(localStorage.getItem('asosCartData')) || [];
+
 console.log(cartArr)
 
-// function appendProduct(cartArr ) {
-  hairDiv.innerHTML = null;
-  cartArr.forEach(function (elem) {
+function appendProducts(cartArr ) {
+
+    container11.innerHTML = null;
+    cartArr.forEach(function (elem) {
 
     let imgDiv=document.createElement("div");
     imgDiv.setAttribute("id","imgDiv1");
@@ -150,9 +153,10 @@ console.log(cartArr)
 
     cartbtn.addEventListener("click", function (event) {
       event.preventDefault();
-      cartArr.push(elem);
-      localStorage.setItem("cartArr", JSON.stringify(cartArr));
-      console.log(cartArr);
+      asosCart.push(elem);
+      localStorage.setItem("asosCartData", JSON.stringify(asosCart));
+      console.log("asosCart:",asosCart);
+  
       alert("Product added to the cart!");
     })
 
@@ -161,10 +165,10 @@ console.log(cartArr)
     dataDiv.append(name, price,imageVou,color,cartbtn,imageDeli)
  
     // box.append();
-    hairDiv.append(imgDiv,dataDiv);
+    container11.append(imgDiv,dataDiv);
   });
-// }
-// appendProduct(cartArr );
+}
+appendProducts(cartArr );
 
 
 </script>

@@ -27,11 +27,11 @@ let men_navbar=()=>{
                 <div class = "sub-menu-item">
                   <h4>NEW PRODUCTS</h4>
                   <ul>
-                    <li><a href = "#">View all</a></li>
-                    <li><a href = "Mclothing.html">Clothing</a></li>
-                    <li><a href = "#">Shoes</a></li>
-                    <li><a href = "#">Accessories</a></li>
-                    <li><a href = "#">Face + Body</a></li>
+                    <li><a href = "viewallM.html">View all</a></li>
+                    <li><a href = "clothingM.html">Clothing</a></li>
+                    <li><a href = "shoesM.html">Shoes</a></li>
+                    <li><a href = "accessM.html">Accessories</a></li>
+                    <li><a href = "faceBody.html">Face + Body</a></li>
                   </ul>
                 </div>
                 <!-- end of item -->

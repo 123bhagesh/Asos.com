@@ -177,6 +177,4 @@ let women_navbar2 =()=>{
 `
 }
 
-
-
 export{women_navbar2}

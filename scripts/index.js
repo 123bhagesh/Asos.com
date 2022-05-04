@@ -1,15 +1,3 @@
-// import {navbarSearch} from "../components/top_search_navbar.js";
-
-// let m= document.getElementById("navbarSearch1")
-
-// m.innerHTML= navbarSearch()
-// console.log(mega)
-
-// import {navbar} from "../components/topnavbar.js"
-
-// let n= document.getElementById("navbar");
-// n.innerHTML=navbar();
-// console.log(n)
 
 import {men_navbar} from"../components/mensnavbar.js"
 

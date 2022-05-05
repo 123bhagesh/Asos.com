@@ -1,0 +1,129 @@
+
+#footerDiv1{
+    height: 45px;
+    width: 100%;
+    margin: auto;
+    padding-top: 10px;
+    border: 1px solid rgb(174, 174, 180);
+   
+    margin-bottom: 15px;
+    justify-content: space-between;
+    text-align: center;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+}
+#footerDiv1>i{
+    margin-left: 51px;
+}
+#footerDiv1>:nth-child(1){
+    color: rgb(64, 64, 177);
+
+}
+#footerDiv1>:nth-child(2){
+    color: blueviolet;
+}
+#footerDiv1>:nth-child(3){
+    color: rgb(221, 239, 61);
+
+}
+#footerDiv1>:nth-child(4){
+    color: rgb(24, 100, 215);
+}
+#footerDiv1>:nth-child(5){
+    color: rgb(49, 17, 17);
+}
+#footerDiv1>:nth-child(6){
+    color: rgb(24, 100, 215);
+
+}
+#footerDiv1>:nth-child(7){
+    color: rgb(10, 87, 175);
+}
+#footerDiv2{
+    height: 210px;
+    width: 1410;
+    display: flex;
+    /* border: 1px solid red; */
+    gap: 35px;
+    padding-left: 120px;
+    background-color:rgb(238,238,238);
+}
+#footerDiv2>div{
+    height: 190px;
+    width: 19%;
+    /* border: 1px solid hotpink; */
+    display: grid;
+    text-decoration: none;
+    /* max-width: 1366px; */
+    /* padding: 10px; */
+    /* padding-bottom: 20px; */
+    box-sizing: border-box;
+    /* margin: 0 auto;
+    display: flex; */
+}
+#footerDiv2>div>h5{
+    color: rgb(102,102,105);
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin-top: 25px;
+    margin-bottom: -10px;
+}
+#footerDiv2>div>p{
+    height: auto;
+    color: rgb(129, 131, 136);
+    font-size: 13.5px;
+    text-decoration: none;
+    margin-top: -10px;
+    margin-bottom: -100px;
+
+}
+p>a{
+    text-decoration: none;
+    color: rgb(129, 131, 136);
+
+}
+#footerDiv3{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 125px;
+    font-size: 12px;
+    background-color: rgb(221,221,221);
+    margin-bottom: 0px;
+    /* padding: 4px ; */
+}
+.indexDiv411 button{
+    margin: 1rem;
+    font-size: 1rem;
+    text-transform: uppercase;
+    background: rgb(251, 235, 235);
+    color: rgb(10, 5, 5);
+    border: none;
+    padding: 0.8rem 1.5rem;
+    transition: all 0.5s ease;
+    cursor: pointer;
+}
+.indexDiv411 button:hover{
+    background: rgb(185, 173, 11);
+    color: rgb(240, 6, 6);
+}
+.indexDiv411 button{
+    margin: 1rem;
+    font-size: 1rem;
+    text-transform: uppercase;
+    background: white;
+    color: black;
+    border: none;
+    padding: 0.8rem 1.5rem;
+    transition: all 0.5s ease;
+    cursor: pointer;
+}
+.indexDiv411 button:hover{
+    background: black;
+    color: white;
+}
+a:hover{
+    color: rgba(14, 208, 208, 0.838);
+}
+

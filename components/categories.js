@@ -8,7 +8,7 @@ const categories_Navbar =()=>{
         <div id="womensButton"><h4><a href="womens.html">WOMEN</a></h4></div>
         <div id="mensButton"><h4><a href="index.html">MEN</a></h4></div>
 
-        <div><a href="cartpage.html"><img style="height: 55px;margin-top: 0px;" src="/acc_bag3 - Copy.png"></a></div>
+        <div><a href="cart.html"><img style="height: 55px;margin-top: 0px;" src="/acc_bag3 - Copy.png"></a></div>
     
     </div>
     

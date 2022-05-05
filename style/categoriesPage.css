@@ -189,12 +189,12 @@ width: 51px;
 background-color: rgb(45,45,45);
 border-top: none;
 border-bottom: none;
-border: 3px solid rgb(255, 255, 255);
+/* border: 3px solid rgb(255, 255, 255); */
 border-top: none;
 border-bottom: none;
 }
 #navebar_TopDiv_Mean_Womens>:nth-child(4):hover{
 /* background: #fff; */
 color: #000;
-border: 2px solid rgb(152, 0, 149);
+border: 3px solid rgb(41, 204, 245);
 }

@@ -20,6 +20,9 @@
             font-family: 'Poppins', sans-serif;
 
         }
+        a{
+            text-decoration: none;
+        }
         body{
             background: rgb(238,238,238);
         }
@@ -313,7 +316,7 @@
                     <option value="">Express Delivery (£20.00)</option>
                 </select>
             </div>
-            <div id="checkoutDiv"><button>CHECKOUT</button></div>
+            <div id="checkoutDiv"><button><a style="color: white;" href="/checkout.html">CHECKOUT</a></button></div>
             <div><img style="width: 285px; margin: auto;" src="/we-Accept-cart-Img.PNG" alt=""></div>
         </div>
     
@@ -324,6 +327,8 @@
 </html>
 
 <script>
+
+
 var cartData = document.getElementById("cartDataAppend");
 
 // var cartArr = JSON.parse(localStorage.getItem('asosArr')) || [];
@@ -335,7 +340,6 @@ console.log(asosCart)
 var pri=0;
 let totalPrice1=document.getElementById("subtotalP1")
 let totalPrice2=document.getElementById("subtotalP2")
-
 
 function appendProducts(asosCart ) {
 

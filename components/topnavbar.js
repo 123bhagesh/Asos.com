@@ -14,7 +14,7 @@ let topSearch =()=>{
       <a href="signup.html">Sign up</a>     
     </div>
     </div>
-    <div><a href="#"><img style="height: 30px;margin-top: 14px;margin-left:12px;" src="/acc_bag3.png" alt=""></a></div>
+    <div><a href="cart.html"><img style="height: 30px;margin-top: 14px;margin-left:12px;" src="/acc_bag3.png" alt=""></a></div>
 
 </div>
       `

@@ -11,6 +11,12 @@ let t= document.getElementById("top-search");
 t.innerHTML=topSearch()
 console.log(t)
 
+import {footer} from "../components/footer.js"
+
+let fot= document.getElementById("footerDiv123");
+fot.innerHTML=footer()
+console.log(fot)
+
 
 document.getElementById("womensButton").addEventListener("click",goWomensPage)
 

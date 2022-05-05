@@ -1,4 +1,4 @@
-let footer = ()=>{
+let footerBottom = ()=>{
 return`
 
 <div id="footerDIv">
@@ -52,8 +52,9 @@ return`
     <p>Privacy & Cookies Ts & Cs  Accessibility</p>
 </div>
 
-</div>`
+</div>
+`
 
 }
 
-export {footer}
+export {footerBottom}

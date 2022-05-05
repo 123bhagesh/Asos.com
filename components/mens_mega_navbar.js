@@ -1,4 +1,4 @@
-let men_navbar=()=>{
+let men_Mega_navbar=()=>{
     return`
     <div class = "main-wrapper">
       <nav class = "navbar">
@@ -183,4 +183,4 @@ let men_navbar=()=>{
   `
   }
 
-  export {men_navbar}
+  export {men_Mega_navbar}

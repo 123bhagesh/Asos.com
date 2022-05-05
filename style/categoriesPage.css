@@ -4,7 +4,7 @@ font-family: 'Poppins', sans-serif;
 
 
 }
-#container{
+#containerDiv{
     width: 86%;
     margin: auto;
     display: grid;
@@ -16,30 +16,31 @@ font-family: 'Poppins', sans-serif;
     
     
 }
-#div1{
+#div111{
     /* border: 1px solid red; */
     width: 100%;
-    margin-bottom: 30px;
+    margin-bottom: 32px;
     cursor: pointer;
 }
-#div1>img{
+#div111>img{
     width: 313px;
     margin-bottom: -5px;
     /* height: 300px; */
 
 }
-#div1>:nth-child(2){
+#div111>:nth-child(2){
     margin-top: 10px;
     margin-left: 2px;
     font-size: 14px;
     letter-spacing: 0.5px;
-    line-height: 20px;
+    line-height: 21px;
     /* color: #2D2D2D; */
     color: rgb(135, 117, 102);
+    margin-bottom: 8px;
 
     
 }
-#div1>:nth-child(3){
+#div111>:nth-child(3){
 
     margin-left: 2px;
     margin-bottom: 1px;
@@ -58,15 +59,20 @@ font-family: 'Poppins', sans-serif;
     padding-left: 103px;
     
 }
-#sorter{
+/* #sorter */
+#sortDiv>select{
+    font-size: 14px;
+    font-weight:500;
+    color: #666666;
     height: 37px;
     width: 200px;
     margin-top: 7px;
     border-left: none;
     border-right: none;
     background: rgb(238,238,238);
+    margin-right: 20px;
 }
-#sorter>option{
+#sortDiv>select>option{
     font-size: 17px;
     padding: 10px;
 }
@@ -74,6 +80,8 @@ font-family: 'Poppins', sans-serif;
     text-align: center;
     font-size: 25px;
     font-weight: 600;
+    margin-bottom: 15px;
+    margin-top: 10px;
 }
 #topNewIn{
     display: flex;
@@ -108,93 +116,3 @@ font-family: 'Poppins', sans-serif;
 }
 
 /* top Search bar */
-*{
-font-family: 'Poppins', sans-serif;
-
-
-}
-a{
-text-decoration: none;
-color: white;
-
-}
-#navebar_TopDiv_Mean_Womens{
-height: 59px;
-width: 1409px;
-/* border: 1px solid red; */
-display: flex;
-padding-left: 100px;
-background-color: rgb(45,45,45);
-}
-#navebar_TopDiv_Mean_Womens>:nth-child(1){
-width: 130px;
-/* border: 1px solid violet; */
-background-color: rgb(45,45,45);
-padding-bottom: -10px;
-padding-bottom: 30px;
-
-
-}
-
-#navebar_TopDiv_Mean_Womens>:nth-child(1)>h1{
-color: rgb(255, 255, 255);
-text-decoration: none;
-margin-bottom: 5px;
-font-size: 55px;
-margin-top: -10px;
-margin-bottom: 25px;
-letter-spacing: -7px;
-font-weight: 500;
-margin-left: 8px;
-
-
-
-}
-#navebar_TopDiv_Mean_Womens>:nth-child(1)>h1>a{
-color: white;
-margin-bottom: 25px;
-
-}
-#navebar_TopDiv_Mean_Womens>:nth-child(2){
-width: 110px;
-/* border: 1px solid violet; */
-text-align: center;
-cursor: pointer;
-}
-#navebar_TopDiv_Mean_Womens>:nth-child(2):hover{
-
-background-color: #666666;
-
-}
-#navebar_TopDiv_Mean_Womens>:nth-child(2)>h4>a{
-color: white;
-letter-spacing: 1.4px;
-
-}
-#navebar_TopDiv_Mean_Womens>:nth-child(3){
-width: 110px;
-text-align: center;
-letter-spacing: 2px;
-cursor: pointer;
-margin-right: 800px;
-}
-#navebar_TopDiv_Mean_Womens>:nth-child(3):hover{
-
-background-color: #666666;
-
-}
-#navebar_TopDiv_Mean_Womens>:nth-child(4){
-width: 51px;
-/* border: 1px solid rgb(255, 255, 255); */
-background-color: rgb(45,45,45);
-border-top: none;
-border-bottom: none;
-/* border: 3px solid rgb(255, 255, 255); */
-border-top: none;
-border-bottom: none;
-}
-#navebar_TopDiv_Mean_Womens>:nth-child(4):hover{
-/* background: #fff; */
-color: #000;
-border: 3px solid rgb(41, 204, 245);
-}

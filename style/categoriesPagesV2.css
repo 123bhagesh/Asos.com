@@ -1,0 +1,151 @@
+
+*{
+    font-family: 'Poppins', sans-serif;
+    
+    
+    }
+    #containerDiv{
+        width: 86%;
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(4,24.3%);
+        justify-content: space-between;
+        /* margin-bottom: 20px; */
+        /* column-gap: 55px; */
+        /* border: 1px solid black; */
+        
+        
+    }
+    #div111{
+        /* border: 1px solid red; */
+        width: 100%;
+        margin-bottom: 32px;
+        cursor: pointer;
+    }
+    #div111>img{
+        width: 313px;
+        margin-bottom: -5px;
+        /* height: 300px; */
+    
+    }
+    #div111>:nth-child(2){
+        margin-top: 10px;
+        margin-left: 2px;
+        font-size: 14px;
+        letter-spacing: 0.5px;
+        line-height: 21px;
+        /* color: #2D2D2D; */
+        color: rgb(135, 117, 102);
+        margin-bottom: 8px;
+    
+        
+    }
+    #div111>:nth-child(3){
+    
+        margin-left: 2px;
+        margin-bottom: 1px;
+        font-weight: 600;
+        font-size: 14px;
+        letter-spacing: 1px;
+        color: #666666;
+        /* color: rgb(148,131,116); */
+        
+    }
+    #sortDiv{
+        width: 1408px;
+        height: 50px;
+        background: rgb(238,238,238);
+        margin-bottom: 50px;
+        padding-left: 103px;
+        
+    }
+    /* #sorter */
+    #sortDiv>select{
+        font-size: 14px;
+        font-weight:500;
+        color: #666666;
+        height: 37px;
+        width: 200px;
+        margin-top: 7px;
+        border-left: none;
+        border-right: none;
+        background: rgb(238,238,238);
+        margin-right: 20px;
+    }
+    #sortDiv>select>option{
+        font-size: 17px;
+        padding: 10px;
+    }
+    #topName{
+        text-align: center;
+        font-size: 25px;
+        font-weight: 600;
+        margin-bottom: 15px;
+        margin-top: 10px;
+    }
+    #topNewIn{
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        margin-bottom: 7px;
+    }
+    #topNewIn>div{
+        /* width: 170px;
+        height: 20px; */
+        /* border-radius: 20px; */
+        /* border: 1px solid red; */
+        /* background-color: rgb(238,238,238); */
+        margin-bottom: 5px;
+        padding: 5px 10px;
+        text-align: center;
+        color: white;
+        text-align: center;
+    
+    }
+    #topNewIn>div>a{
+        color: black;
+        text-decoration: none;
+        font-size: 11px;
+        font-weight: 700;
+        letter-spacing: 1.6px;
+        background-color: rgb(238,238,238);
+        padding: 8px 19px;
+         border-radius: 20px;
+        
+    
+    }
+    
+    /* 30% discount Tag Line div-CSS */
+
+
+    #freeWorldWideDelivery{
+        height: 50px;
+        width: 1517px;
+        display: flex;
+        /* border:1px solid red; */
+        margin-bottom: 30px;
+
+    }
+    #freeWorldWideDelivery>div{
+        width: 50%;
+        height: 100%;
+        /* border: 1px solid lawngreen; */
+        text-align: center;
+    }
+    #freeWorldWideDelivery>div>p{
+        margin-top: 13px;
+        font-size: 14px;
+        font-weight: 700;
+        letter-spacing: 2px;
+        color: black;
+    }
+    #freeWorldWideDelivery>:nth-child(1){
+        background-color:rgb(204,255,0) ;
+
+    }
+    #freeWorldWideDelivery>:nth-child(2){
+        background-color:rgb(0,0,0) ;
+    }
+
+    /* 30% Discount Tag line -CSS */
+

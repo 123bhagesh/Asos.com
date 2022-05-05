@@ -1,26 +1,20 @@
-const categories_Navbar =()=>{
+const categories_Navbar_Discount=()=>{
 
-    return`
+    return `
     
-    <div id="navebar_TopDiv_Mean_Womens">
-
-        <div id="site_Name"> <h1><a href="/index.html">asos</a></h1></div>
-        <div id="womensButton"><h4><a href="womens.html">WOMEN</a></h4></div>
-        <div id="mensButton"><h4><a href="index.html">MEN</a></h4></div>
-
-        <div><a href="cart.html"><img style="height: 55px;margin-top: 0px;" src="/acc_bag3 - Copy.png"></a></div>
-    
+    <div id="freeWorldWideDelivery">
+    <div><p style="color: black;">UP TO 30% OFF SUN-READY STUFF</p></div>
+    <div><p style="color: white;">FREE WORLDWIDE DELIVERY</p></div>
     </div>
-    
-    <div>
-        <img style="width: 1510px;height: 47px;" src="/navbar-bar-img.PNG" alt="">
-    </div>
-    `
+`
+
+
 }
 
 
-const categories_Navbar2=()=>{
+const categories_Sorting=()=>{
     return`
+    
     <div id="topNewIn">
         <div><a href="">NEW IN: CLOTHING</a></div>
         <div><a href="">NEW IN: SHOES</a></div>
@@ -45,4 +39,4 @@ const categories_Navbar2=()=>{
         `
 }
 
-export {categories_Navbar,categories_Navbar2}
+export {categories_Navbar_Discount,categories_Sorting}

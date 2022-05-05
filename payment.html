@@ -13,9 +13,9 @@
     <script src="https://kit.fontawesome.com/4e68ce48c2.js" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@1,700&family=Poppins:wght@100&family=Roboto+Serif:ital,wght@0,400;1,200;1,500;1,600&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/6a3faf3152.js" crossorigin="anonymous"></script>
-   <style>
+    <style>
 
-*{
+        *{
             font-family: 'Poppins', sans-serif;
 
         }
@@ -30,7 +30,6 @@
             margin-bottom: 0px;
             justify-content: space-between;
             
-    
         }
         #topHeading111>h1{
             color: rgb(10, 7, 7);
@@ -88,7 +87,7 @@
             /* border-top: none; */
             /* border-right: none; */
 
-        }
+        }       
         #myformPayment111>:nth-child(1){
             font-weight: 600;
             font-size: 19px;
@@ -157,15 +156,18 @@
                     <h2>ADD CREDIT/DEBIT CARD</h2>
 
                     <p>CARD NUMBER</p>
-                    <input type="number" class="form-con11rol" id="name111"  placeholder="">
+                    <input type="number" class="form-con11rol" id="name111"  placeholder="" required minlength="5" >
                     
                     <P>CARD PASSWORD</P>
-                    <input type="number"    class="form-control" id="password111"  placeholder="">
-            
+                    <input type="number"    class="form-control" id="password111"  placeholder="" required >
+
+                    <!-- if (inputs[index].value==null || inputs[index].value=="" || inputs[index].value.length < 6) {
+                        alert("Field is not 6 characters minimum!");
+                    } -->
                     <P>CVV</P>
-                    <input type="city"  class="form-control" id="cvv111"  placeholder="">
+                    <input type="city"  class="form-control" id="cvv111"  placeholder="" required >
                 
-                    <button id="processed_to_payment">Processed Payment</a></button>
+                    <button id="processed_to_payment">Processed Payment</button>
 
             </form>
             <div><img style="width: 570px; margin-top: px;" src="/payment-page-we-accept-cards.PNG" alt=""></div>
@@ -183,5 +185,36 @@ function paymentSucess(e){
     alert("Payment Sucessful")
     window.location.href="index.html"
 }
-    
+// <form action="#" name="contact" class="needs-validation">
+//                         <label for="fname">Full Name</label>
+//                         <input type="text" id="fname" name="firstname" placeholder="Enter your full name..." required />
+//                         <label for="email">Email</label>
+//                         <input type="text" id="email" name="email" placeholder="Enter a valid email..." required />
+//                         <label for="subject">Message</label>
+//                         <textarea id="subject" name="subject" placeholder="Your requested choice/inquiry..." required></textarea>
+//                         <a href="success.html" class="button-submit">SEND</a>
+//                     </form>
+
+
+//     if (inputs[index].value==null || inputs[index].value=="" || inputs[index].value.length < 6) {
+//     alert("Field is not 6 characters minimum!");
+//     return false;
+// }
+// let inputs = document.getElementById("name111").addEventListener("click", length)
+
+// if (inputs[number].value==null || inputs[number].value=="" || inputs[number].value.length < 6) {
+//                         alert("Field is not 6 characters minimum!");
+//                 //  return false
+                    
+//                     }
+
+
+// function length(inputs){
+//     if(userInput.length >= minlength && userInput.length <= maxlength)
+//       {  	
+//         return true;  	
+//       }
+// }
+
+
 </script>

@@ -187,7 +187,7 @@
     /* border: 1px solid black; */
     margin: auto;
     margin-top: 17px;
-    margin-bottom: 60px;
+    margin-bottom: 35px;
     font-family: 'Poppins', sans-serif;
 
     text-align: center;
@@ -210,9 +210,9 @@
     width: 100%;
     margin: auto;
     padding-top: 10px;
-    border: 1px solid rgb(174, 174, 180);
+    border: 1px solid rgb(215, 215, 218);
    
-    margin-bottom: 15px;
+    margin-bottom: 0px;
     justify-content: space-between;
     text-align: center;
     border-left: none;

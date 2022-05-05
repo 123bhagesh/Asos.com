@@ -10,7 +10,7 @@ a{
 }
 #navebar_TopDiv_Mean_Womens{
     height: 59px;
-    width: 1415px;
+    width: 1418px;
     /* border: 1px solid red; */
     display: flex;
    padding-left: 100px;
@@ -22,6 +22,7 @@ a{
     background-color: rgb(45,45,45);
     padding-bottom: -10px;
     padding-bottom: 30px;
+
  
 
 }
@@ -69,18 +70,20 @@ a{
     width: 780px;
     border: 1px solid rgb(32, 7, 32);
     background-color: rgb(45,45,45);
+    margin-right: 35px;
     
 }
 
-#search{
+#searchTextData{
     width: 730px;
     height: 35px;
     border-radius: 30px;
     border: 1px solid black;
-    margin-top: 8px;
+    margin-top: 10px;
     margin-left: 25px;
     padding-left: 10px;
     font-size: 16px;
+    margin-right: 35px;
 
 }
 #navebar_TopDiv_Mean_Womens>:nth-child(5){
@@ -89,12 +92,13 @@ a{
     background-color: rgb(45,45,45);
     border-top: none;
     border-bottom: none;
+    margin-right: 10px;
     
 }
 #navebar_TopDiv_Mean_Womens>:nth-child(5):hover{
     /* background: #fff; */
     color: #000;
-        border: 1px solid rgb(255, 255, 255);
+    border: 1px solid rgb(255, 255, 255);
 }
 #navebar_TopDiv_Mean_Womens>:nth-child(6){
     width: 51px;

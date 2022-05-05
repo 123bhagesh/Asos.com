@@ -1,24 +1,43 @@
-import {categories_Navbar,categories_Navbar2} from "../components/categories.js";
+import {topSearch} from "../components/topnavbar.js";
 
 // console.log(categories_Navbar,categories_Navbar2)
-let viewAll =document.getElementById("clothNavbar")
+let viewAll =document.getElementById("clothTopNavbar")
 
-viewAll.innerHTML=categories_Navbar()
+viewAll.innerHTML=topSearch()
 console.log(viewAll)
 
-// import {categories_Navbar2} from "../components/categories.js";
 
-let viewAll2 =document.getElementById("clothNavbar2")
+import {men_Mega_navbar} from "../components/mens_mega_navbar.js";
 
-viewAll2.innerHTML=categories_Navbar2()
+let viewAll2 =document.getElementById("clothMegaNavbar2")
+
+viewAll2.innerHTML=men_Mega_navbar()
 console.log(viewAll2)
 
+import{categories_Navbar_Discount,categories_Sorting}from "../components/categoriesV2.js";
+
+let viewAll3 =document.getElementById("categories_Discount_Img")
+
+viewAll3.innerHTML=categories_Navbar_Discount()
+console.log(viewAll3)
+
+
+let viewAll4 =document.getElementById("sort_Append_Div")
+
+viewAll4.innerHTML=categories_Sorting()
+console.log(viewAll4)
+
+import {footerBottom} from "../components/footer.js"
+
+let fot= document.getElementById("footerDiv124");
+fot.innerHTML=footerBottom()
+console.log(fot)
 
 ///////////////////////////////
 
 
 
-let access_Men =
+ let Mens_Clothing =
 
 [
     {"name":"Levi's woodmark beanie with modern vintage logo in black","price":"30","color":"Black","image":"https://images.asos-media.com/products/levis-woodmark-beanie-with-modern-vintage-logo-in-black/200825068-1-black?$n_480w$&wid=476&fit=constrain"},
@@ -43,17 +62,17 @@ let access_Men =
     {"name":"New Look tall floral split midi skirt in black","price":"22","color":"Black Floral","image":"https://images.asos-media.com/products/new-look-tall-floral-split-midi-skirt-in-black/203019735-1-blackfloral?$n_480w$&wid=476&fit=constrain"}]
     
 
-/////
-var hairDiv = document.getElementById("container");
+
+var hairDiv = document.getElementById("containerDiv");
 
 var cartArr = [];
 
-function appendProduct(access_Men) {
+function appendProduct(Mens_Clothing) {
   hairDiv.innerHTML = null;
-  access_Men.forEach(function (elem) {
+  Mens_Clothing.forEach(function (elem) {
 
     let box = document.createElement("div");
-    box.setAttribute("id","div1")
+    box.setAttribute("id","div111")
 
     let image = document.createElement("img");
     image.src = elem.image;
@@ -79,20 +98,20 @@ function appendProduct(access_Men) {
     hairDiv.append(box);
   });
 }
-appendProduct(access_Men);
+appendProduct(Mens_Clothing);
 
 document.querySelector("#sorter").addEventListener("click", sortByPrice);
 function sortByPrice() {
-    access_Men.map(function (elem) {
+    Mens_Clothing.map(function (elem) {
         var sorting = document.querySelector("#sorter").value;
         console.log(sorting);
         if (sorting == "l2h") {
-            access_Men.sort(function (a, b) { return a.price - b.price })
-            appendProduct(access_Men)
+            Mens_Clothing.sort(function (a, b) { return a.price - b.price })
+            appendProduct(Mens_Clothing)
         }
         else if (sorting == "h2l") {
-            access_Men.sort(function (a, b) { return b.price - a.price })
-            appendProduct(access_Men)
+            Mens_Clothing.sort(function (a, b) { return b.price - a.price })
+            appendProduct(Mens_Clothing)
         }
 
         else if (sorting == "a2z") {
@@ -101,7 +120,7 @@ function sortByPrice() {
                 if (x.name > y.name) { return 1; }
                 return 0;
             }
-            var s = access_Men.sort(SortArray)
+            var s = Mens_Clothing.sort(SortArray)
             appendProduct(s)
         }
         else if (sorting == "z2a") {
@@ -110,8 +129,42 @@ function sortByPrice() {
                 if (x.name < y.name) { return 1; }
                 return 0;
             }
-            var sort = access_Men.sort(SortArray)
+            var sort = Mens_Clothing.sort(SortArray)
             appendProduct(sort)
         }
     })
 }
+document.querySelector("#filter").addEventListener("click", filterItems);
+
+
+// filter_Function
+
+function filterItems(){
+    var filter=document.getElementById("filter").value;
+       var filterdata=Mens_Clothing.filter(function(elem,index){
+                    return elem.price > Number(filter);
+       })
+       appendProduct(filterdata);
+    //    document.getElementById("items").textContent = filterdata.length;
+   }
+  
+
+  //    search_Function
+
+   let  asosSearchArr=[]
+  let searchAsosProd = document.getElementById("searchTextData").addEventListener("keyup",searchAsos);
+  function searchAsos(e){
+    if(e.key==="Enter"){
+     var searchText=document.getElementById("searchTextData").value;
+
+     asosSearchArr.push(searchText)
+     localStorage.setItem("inpData",JSON.stringify(asosSearchArr))
+
+     console.log(searchText);
+
+    //  window.Location.href="search.html"
+     window.location.href="search.html"
+
+    }
+
+  }

@@ -14,287 +14,47 @@
     <link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@1,700&family=Poppins:wght@100&family=Roboto+Serif:ital,wght@0,400;1,200;1,500;1,600&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/6a3faf3152.js" crossorigin="anonymous"></script>
 
-
-    <style>
-        *{
-            font-family: 'Poppins', sans-serif;
-
-        }
-        a{
-            text-decoration: none;
-        }
-        body{
-            background: rgb(238,238,238);
-        }
-        #cartmainDiv{
-            display: flex;
-            width: 920px;
-            /* border: 1px solid black; */
-            height: 800px;
-            margin: auto;
-            justify-content: space-between;
-
-
-
-        }
-        #cartmainDiv>:nth-child(1){
-            width: 60.3%;
-            /* border: 1px solid black; */
-            height: 800px;
-            /* background: white; */
-
-
-        }
-        #cartmainDiv>:nth-child(2){
+        <!-- sorting functio css -->
+        <link rel="stylesheet" href="./style/categoriesPagesV2.css">
+        <!-- top-Search-Navbar-Womens-CSS -->
+        <link rel="stylesheet" href="./style/topSearch.css">
+        <!-- mega-Menu-Navbar-Womens-CSS -->
+        <link rel="stylesheet" href="./style/megaNavbar.css">
+        <!-- Sign-in-Drop-Down-CSS -->
+        <link rel="stylesheet" href="/style/signinDropDown.css">
+        <!-- footer-CSS -->
+        <link rel="stylesheet" href="./style/footer.css">
+        <!-- cart_css -->
+        <link rel="stylesheet" href="/style/cart.css">
     
-            width: 38%;
-            /* border: 1px solid rgb(107, 174, 40); */
-            height: 390px;
-            background: white;
-
-            
-
-        }
-        #cartmainDiv>:nth-child(1)>:nth-child(1){
-            width: 100%;
-            /* border: 1px solid rgb(205, 40, 40); */
-            height: 70px;
-            margin-bottom: 11px;
-            display: flex;
-            background: white;
-            
-        }
-        #cartmainDiv>:nth-child(1)>:nth-child(2){
-            width: 100%;
-            /* border: 1px solid rgb(205, 40, 40); */
-            /* height: 180px; */
-            /* margin-bottom: 11px; */
-            background: white;        
-
-
-        }
-        #cartmainDiv>:nth-child(1)>:nth-child(3){
-            width: 100%;
-            /* border: 1px solid rgb(205, 40, 40); */
-            height: 70px;
-            margin-bottom: 11px;
-            background: white;
-
-        }
-        #myBag>h3{
-            margin-left: 22px;
-            letter-spacing: 1.2px;
-        
-            margin-right: 200px;
-        }
-        #myBag>p{
-            margin-top: 25px;
-            font-size: 13px;
-        }
-        #subTotalDiv{
-            display: flex;
-        
-        }
-        #subTotalDiv>:nth-child(1){
-            width: 75%;
-            /* border: 1px solid red; */
-            text-align: end;
-            padding-top: 7px;
-            font-weight: 600;
-            letter-spacing: 2px;
-        }
-        #subTotalDiv>:nth-child(2){
-            width: 25%;
-            /* border: 1px solid rgb(246, 159, 38); */
-            text-align: end;
-            padding-top: 7px;
-            padding-right: 30px;
-            font-weight: 600;
-            letter-spacing: 2px;
-     
-        }
-        #subtotalP{
-
-            margin-right: 29px;
-        }
-
-        /* Total Div */
-
-
-        #totalDiv{
-            
-        }
-        #totalDiv>:nth-child(1){
-            width: 82%;
-            border: 1px solid rgb(178, 179, 178);
-            margin: auto;
-            font-size: 18px;
-            font-weight: 600;
-            letter-spacing: 1.3px;
-            padding-bottom: 9px;
-            border-left: none;
-            border-right: none;
-            border-top: none;
-
-        }
-        #totalDiv>:nth-child(2){
-            width: 82%;
-            height: 30px;
-            /* border: 1px solid rgb(131, 232, 131); */
-            justify-content: space-between;
-            display: flex;
-            margin: auto;
-
-        }
-        #totalDiv>:nth-child(2)>P{
-
-            font-weight:600 ;
-            margin-top: 9px;
-            letter-spacing: 1.2px;
-            
-
-        }
-        #totalDiv>:nth-child(3){
-            width: 82%;
-            height: 30px;
-            /* border: 1px solid rgb(131, 232, 131); */
-            justify-content: space-between;
-            display: flex;
-            margin: auto;
-            font-weight:600 ;
-
-        }
-        #totalDiv>:nth-child(3)>P{
-
-        font-weight:600 ;
-        margin-top: 8px;
-        letter-spacing: 1.2px;
-
-        }
-        #totalDiv>:nth-child(4){
-            width: 82%;
-            height: 45px;
-            /* border: 1px solid rgb(4, 105, 4); */
-            /* justify-content: space-between; */
-            display: flex;
-            margin: auto;
-            /* padding: 3px 40px; */
-            margin-top: 15px;
-            
-        }
-        #totalDiv>:nth-child(4)>select{
-            width: 285px;
-            border-left: none;
-            border-right: none;
-            border-top: none ;
-        }
-        #totalDiv>:nth-child(5){
-            width: 82%;
-            height: 45px;
-            /* border: 1px solid rgb(131, 232, 131); */
-            justify-content: space-between;
-            display: flex;
-            margin: auto;
-            /* padding: 3px 40px; */
-            margin-top: 25px;         
-
-        }
-        #checkoutDiv>button{
-            padding: 5px 96px;
-            font-size: 15px;
-            font-weight: 800;
-            letter-spacing: 1px;
-            color: white;
-            background: rgb(1,136,73);
-            cursor: pointer;
-            border: none;
-        }
-        #checkoutDiv>button:hover{
-            background: rgb(4, 99, 55);
-        } 
-        #totalDiv>:nth-child(6){
-            width: 80%;
-            /* border: 1px solid red; */
-            margin: auto;
-            margin-top: 20px;
-        }
-
-        /* cart Data */
-
-        #elemImage11{
-            width: 113px;
-            /* margin-top: 5px; */
-        }
-        #boxDiv11{
-            display: flex;
-            width: 89%;
-            height: 170px;
-            /* margin-top: 30px; */
-            margin-bottom: 11px;
-            background: white;
-            border: 1px solid rgb(117, 115, 116);
-            margin: auto;
-            justify-content: space-between;
- 
-            padding-top: 20px;
-            /* margin-bottom: 10px; */
-            border-left: none;
-            border-right: none;
-            border-top: none;
-
-
-        }
-        #imageDiv11{
-            width: 113px;
-            height: 145px;
-            
-            /* border: 2px solid rgb(94, 107, 20); */
-        }
-        #dataDiv22{
-            width: 270px;
-            height: 145px;
-            /* border: 2px solid rgb(3, 108, 111); */
-            /* line-height: 16px; */
-            
-
-        }
-        #iconDiv33{
-            width: 60px;
-            height: 145px;
-            /* border: 2px solid green; */
-            text-align: end;
-        }
-        #elemPrice44{
-            margin-top: 0px;
-            letter-spacing: 1.1px;
-            /* color: red; */
-            font-weight: 700;
-
-        }
-        #elemName22{
-            /* color: aqua; */
-            font-size: 15px;
-            color: rgb(108, 105, 105);
-            margin-top: -10px;
-            line-height: 19px;
-        }
-        #elemColor33{
-            text-transform: uppercase;
-            color: rgb(108, 105, 105);
-            letter-spacing: 1.1px;
-
-        }
-        #elemImageCross11{
-            width: 40px;
-            cursor: pointer;
-        }
-
-
+    <style>
+#footerDiv1{
+    height: 45px;
+    width: 100%;
+    margin: auto;
+    padding-top: 10px;
+    border: 1px solid rgb(238,238,238);;
+    margin-bottom: 5px;
+    justify-content: space-between;
+    text-align: center;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+    background: white;
+}
 
     </style>
 
 </head>
 <body>
+
+    <div id="clothTopNavbar"></div>
+
+    <div id="clothMegaNavbar2"></div>
+
+    <div id="categories_Discount_Img"></div>
+
+
     <div id="cartmainDiv">
         <div>
             <div id="myBag"> <h3>MY BAG</h3> <p>Items are reserved for 60 minutes</p></div>
@@ -312,7 +72,7 @@
             <div><p>Devilery</p></div>
             <div>
                 <select name="" id="SelectTag">
-                    <option value="">Standard Delivery (£6.00)</option>
+                    <option value="">Standard Delivery (Free)</option>
                     <option value="">Express Delivery (£20.00)</option>
                 </select>
             </div>
@@ -322,127 +82,13 @@
     
     </div>
 
+         <!-- footer-Append  -->
+    <div id="footerDiv124"></div>
+    
+
 
 </body>
 </html>
 
-<script>
+<script src="/scripts/cart.js" type="module"></script>
 
-
-var cartData = document.getElementById("cartDataAppend");
-
-// var cartArr = JSON.parse(localStorage.getItem('asosArr')) || [];
-
-var asosCart = JSON.parse(localStorage.getItem('asosCartData')) || [];
-
-console.log(asosCart)
-
-var pri=0;
-let totalPrice1=document.getElementById("subtotalP1")
-let totalPrice2=document.getElementById("subtotalP2")
-
-function appendProducts(asosCart ) {
-
-
-    cartData.innerHTML = null;
-
-    asosCart.map(function (elem,index) {
-
-        
-    pri=pri + (+elem.price);
-    totalPrice1.innerText= "£"+pri+".00"
-
-    totalPrice2.innerHTML= "£"+pri+".00"
-    
-    let box=document.createElement("div");
-    box.setAttribute("id","boxDiv11");   
-
-    let imgDiv=document.createElement("div");
-    imgDiv.setAttribute("id","imageDiv11");
-
-    let dataDiv=document.createElement("div");
-    dataDiv.setAttribute("id","dataDiv22");
-
-    let crossIconDiv=document.createElement("div");
-    crossIconDiv.setAttribute("id","iconDiv33");
-    
-    let image = document.createElement("img");
-    image.src = elem.image;
-    image.setAttribute("id","elemImage11")
-
-    // let imageVou = document.createElement("img");
-    // imageVou.setAttribute("id","elemImaVou")
-    // imageVou.src ="discount-voutcher.PNG"
-
-    // let imageDeli = document.createElement("img");
-    // imageDeli.setAttribute("id","elemDeli")
-    // imageDeli.src ="diliver-truck-img.PNG"
-
-    let name = document.createElement("p");
-    name.innerText = elem.name;
-    name.setAttribute("id","elemName22")
-
-    let color = document.createElement("p");
-    color.innerText = `${elem.color}`;
-    color.setAttribute("id","elemColor33")
-
-    let price = document.createElement("p");
-    price.innerText = "£"+""+ elem.price+".00"
-    price.setAttribute("id","elemPrice44")
-
-    let imageRemove = document.createElement("img");
-    imageRemove.src = "cart_Remove_sign-img.PNG"
-    imageRemove.setAttribute("id","elemImageCross11")
-
-    imageRemove.addEventListener("click",function(){
-
-        
-        // pri = pri-(+elem.price)
-        // total.innerText=pri
-    asosCart.splice(index,1);
-
-    // pri=pri - (+elem.price);
-    // totalPrice.innerText= "£"+pri+".00"
-
-    localStorage.setItem("asosCartData", JSON.stringify(asosCart));
-    document.querySelector("#cartDataAppend").innerHTML='';
-
-    alert("Product removed from the cart");
-    location.reload();
-    appendProducts(asosCart);
-    
-    })
-
-    // let r =document.createElement("img")
-    
-    // let cartbtn = document.createElement("button");
-    // cartbtn.innerText = "ADD TO BAG";
-    // cartbtn.setAttribute("id","addToCart")
-    // cartbtn.setAttribute("id", "elemCartBtn");
-
-    // cartbtn.addEventListener("click", function (event) {
-    //   event.preventDefault();
-    //   asosCart.push(elem);
-    //   localStorage.setItem("asosCartData", JSON.stringify(asosCart));
-    //   console.log("asosCart:",asosCart);
-  
-    //   alert("Product added to the cart!");
-    // })
-
-    imgDiv.append(image)
-
-    dataDiv.append(price,name, color)
-
-    crossIconDiv.append(imageRemove)
-    
- 
-    // box.append();
-    box.append(imgDiv,dataDiv,crossIconDiv);
-    cartData.append(box);
-
-  });
-}
-appendProducts(asosCart);
-
-
-</script>

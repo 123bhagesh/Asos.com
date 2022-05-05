@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Noto+Sans&family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/4e68ce48c2.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@1,700&family=Poppins:wght@100&family=Roboto+Serif:ital,wght@0,400;1,200;1,500;1,600&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/6a3faf3152.js" crossorigin="anonymous"></script>
+   <style>
+
+*{
+            font-family: 'Poppins', sans-serif;
+
+        }
+        body{
+            background: rgb(242,242,242);
+        }
+        #topHeading111{
+            display: flex;
+            width: 570px;
+            height: 65px;
+            margin: auto;
+            margin-bottom: 0px;
+            justify-content: space-between;
+            
+    
+        }
+        #topHeading111>h1{
+            color: rgb(10, 7, 7);
+            text-decoration: none;
+            margin-bottom: 5px;
+            font-size: 50px;
+            margin-top: -10px;
+            margin-bottom: 25px;
+            letter-spacing: -7px;
+            font-weight: 500;
+            margin-left: 30px;
+     
+        }
+        #topHeading111>h2{
+            /* color: rgb(10, 7, 7); */
+            text-decoration: none;
+            font-size: 31px;
+             margin-top: 7px;
+            font-weight: 600;
+            margin-right: 30px 
+            
+        }
+        #paymentDiv111{
+            width: 570px;
+            height: 555px;
+            /* border: 1px solid black; */
+            margin: auto;
+            margin-bottom: 100px;
+            background: white;
+            padding-top: 10px;
+        }
+        #paymentDiv111>:nth-child(2)>h2{
+            font-weight: 600;
+            margin-left: 37px;
+            font-size: 20px;
+            letter-spacing: 1.2px;
+
+
+        }
+        #myformPayment111{
+            width: 87%;
+            height: 490px;
+            /* border: 1px solid red; */
+            margin: auto;
+        }
+        #myformPayment111>input{
+            display: grid;
+       
+            height: 28px;
+            font-size: medium;
+            padding: 6px;
+            font-size: 14px;
+            margin-bottom: 16px;
+            /* border-left: none; */
+            /* border-top: none; */
+            /* border-right: none; */
+
+        }
+        #myformPayment111>:nth-child(1){
+            font-weight: 600;
+            font-size: 19px;
+            letter-spacing: 1.2px;
+
+        }
+        #myformPayment111>:nth-child(2){
+            font-weight: 600;
+            font-size: 20px;
+            letter-spacing: 1.2px;
+        }
+        #name111{
+            width: 70%;
+            display: block;
+        }
+        #password111{
+
+            width: 56%;
+            margin-right: 10px;
+        }
+        #cv111{
+            width: 34%;
+        }
+        #myformPayment111>p{
+
+            font-weight: 600;
+            color: gray;
+            font-size: 15px;
+            letter-spacing: 1.54px;
+
+        }
+        #processed_to_payment>a{
+            text-decoration: none;
+            color: white;
+        }
+        #processed_to_payment{
+            padding: 9px 20px;
+            margin-top: 20px;
+            font-weight: 600;
+            font-size: 16px;
+            color: white;
+            text-transform: uppercase;
+            letter-spacing: 1.2px;
+            background-color: rgb(47, 41, 41);
+            cursor: pointer;
+        }
+        #processed_to_payment:hover{
+            background: black;
+        }
+   </style>
+
+
+</head>
+<body>
+    <div id="topHeading111">
+        <h1>asos</h1>
+        <h2>CHECKOUT</h2>
+    </div>
+
+    <div id="paymentDiv111">
+        
+
+        <form action="" id="myformPayment111">
+                    <h2>DELIVERY ADDRESS</h2>
+
+                    <h2>ADD CREDIT/DEBIT CARD</h2>
+
+                    <p>CARD NUMBER</p>
+                    <input type="number" class="form-con11rol" id="name111"  placeholder="">
+                    
+                    <P>CARD PASSWORD</P>
+                    <input type="number"    class="form-control" id="password111"  placeholder="">
+            
+                    <P>CVV</P>
+                    <input type="city"  class="form-control" id="cvv111"  placeholder="">
+                
+                    <button id="processed_to_payment">Processed Payment</a></button>
+
+            </form>
+            <div><img style="width: 570px; margin-top: px;" src="/payment-page-we-accept-cards.PNG" alt=""></div>
+        </div>
+    
+
+</body>
+</html>
+
+<script>
+document.getElementById("processed_to_payment").addEventListener("click", paymentSucess)
+
+function paymentSucess(e){
+    event.preventDefault()
+    alert("Payment Sucessful")
+    window.location.href="index.html"
+}
+    
+</script>

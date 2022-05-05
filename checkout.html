@@ -5,8 +5,313 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Noto+Sans&family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/4e68ce48c2.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@1,700&family=Poppins:wght@100&family=Roboto+Serif:ital,wght@0,400;1,200;1,500;1,600&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/6a3faf3152.js" crossorigin="anonymous"></script>
+
+
+
+    <style>
+        *{
+            font-family: 'Poppins', sans-serif;
+
+        }
+        body{
+            background: rgb(242,242,242);
+        }
+        #topHeading{
+            display: flex;
+            width: 570px;
+            height: 65px;
+            margin: auto;
+            margin-bottom: 0px;
+            justify-content: space-between;
+    
+        }
+        #topHeading>h1{
+            color: rgb(10, 7, 7);
+            text-decoration: none;
+            margin-bottom: 5px;
+            font-size: 50px;
+            margin-top: -10px;
+            margin-bottom: 25px;
+            letter-spacing: -7px;
+            font-weight: 500;
+            margin-left: 30px;
+  
+
+            
+        }
+        #topHeading>h2{
+            /* color: rgb(10, 7, 7); */
+            text-decoration: none;
+            font-size: 31px;
+             margin-top: 7px;
+            font-weight: 600;
+            margin-right: 30px 
+            
+        }
+        #checkoutDiv{
+            width: 570px;
+            height: 773px;
+            /* border: 1px solid black; */
+            margin: auto;
+            margin-bottom: 100px;
+        }
+        #checkoutDiv>:nth-child(1){
+            height: 116px;
+            width: 100%;
+            padding-top: 6px;
+            /* border: 1px solid  navy; */
+            background: white;
+ 
+        }
+        #checkoutDiv>:nth-child(2){
+            height: 275px;
+            width: 100%;
+            /* border: 2px solid teal; */
+            display: grid;
+            margin-top: 15px;
+            background: white;
+
+            /* padding: 0px 10px; */
+
+        }
+        #checkoutDiv>:nth-child(3){
+            height: 265px;
+            /* width: 100%; */
+            /* border: 2px solid rgb(238, 12, 102); */
+            background: white;
+
+        }
+        #checkoutDiv>:nth-child(2)>h2{
+            font-weight: 600;
+            margin-left: 37px;
+            font-size: 20px;
+            letter-spacing: 1.2px;
+
+
+        }
+        #delCountry>h2{
+            font-weight: 600;
+            margin-left: 36px;
+            margin-top: 20PX;
+            font-size: 20px;
+            letter-spacing: 1.2px;
+
+
+        }
+        #delCountry>div{
+            display: flex;
+            margin-left: 34px;
+            margin-top: -5px;
+        }
+        #delCountry>div>img{
+            margin-left: 5px;
+            margin-right: 20px;
+            height: 30px;
+            width: 30px;
+            border-radius: 40px;
+        }
+        #delCountry>div>p{
+            margin-top: 2px;
+        }
+        #myformPayment{
+            width: 87%;
+            height: 280px;
+            /* border: 1px solid red; */
+            margin: auto;
+        
+
+        }
+        #myformPayment>input{
+            height: 15px;
+            font-size: medium;
+            padding: 6px;
+            font-size: 14px;
+            margin-bottom: 16px;
+            /* border-left: none; */
+            /* border-top: none; */
+            /* border-right: none; */
+
+        }
+
+        #name{
+            width: 96%;
+            display: block;
+        }
+        #address{
+
+            width: 56%;
+            margin-right: 10px;
+        }
+        #inputCity{
+            width: 34%;
+        }
+        #inputState{
+            width: 270px;
+            margin-right: 13px;
+        }
+        #number{
+            width: 219px;
+            margin-right: 10px;
+        }
+        #inputcountry{
+            width: 225px;
+        }
+
+        #paymentType{
+            margin-top: 15px;
+            padding: 0px 35px;
+            padding-top: 6px;
+            /* border: 2px solid red; */
+        }
+        #paymentType>:nth-child(2){
+            display: flex;
+        }
+        #paymentType>h2{
+            font-weight: 600;
+            margin-left: 5px;
+            font-size: 20px;
+            letter-spacing: 1.2px;
+
+        }
+        #paymentType>h3{
+            font-weight: 600;
+            color: gray;
+            margin-left: 120px;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            /* margin-to; */
+        }
+        #paymentType>div>a>img:hover{
+            border: 2px solid rgb(43, 171, 245);
+
+        }
+
+        /* payment button */
+
+        #addCreditDiv{
+            display: flex;
+            width: 220px;
+            height: 55px;
+            border: 2px solid rgb(171, 170, 170);
+            text-align: center;
+            padding: 5px 30px;
+            letter-spacing: 1.5px;
+            color: black;
+            font-weight: 600;
+            font-size: 15px;
+        }
+        #addCreditDiv:hover{
+            background: rgb(230, 230, 230);
+        }
+        #addCreditDiv>i{
+            margin-top: 20px;
+            margin-right: 20px;
+            
+        }
+        #addCreditDiv>p{
+            margin-top: 5px;
+            text-decoration: none;
+            
+        }
+        #addCreditDiv2{
+            display: flex;
+            width: 220px;
+            height: 36px;
+            border: 2px solid rgb(198, 198, 198);
+            text-align: center;
+            padding: 5px 30px;
+            letter-spacing: 1.5px;
+            color: black;
+            font-weight: 600;
+            font-size: 15px;
+            text-align: center;
+        }
+        #addCreditDiv2:hover{
+            background: rgb(230, 230, 230);
+        }
+        #addCreditDiv2>i{
+            margin-top: 10px;
+            margin-right: 20px;
+            
+        }
+        #addCreditDiv2>p{
+            margin-top: 6px;
+            text-decoration: none;
+            margin-left: 40px;
+            
+        }
+        #paymentType:nth-child(5)>img{
+            height: 10px;
+            width: 500px;
+            margin-top: -10px;
+        }
+        #paymentType{
+            margin-bottom: -17px;
+        }
+    </style>
 </head>
 <body>
-    
+    <div id="topHeading">
+        <h1>asos</h1>
+        <h2>CHECKOUT</h2>
+    </div>
+    <div id="checkoutDiv">
+        <div id="delCountry">
+            <h2>DELIVERY COUNTRY</h2>
+            <div>
+                <img src="https://media.istockphoto.com/vectors/flag-of-india-vector-id472317739?k=20&m=472317739&s=612x612&w=0&h=EyWmhj952ZyJEgDStLz3fd0WZjqYIpSvnK3OpPfJ4eA=" alt="">
+                <p>India</p>
+
+            </div>
+          
+
+        </div>
+        
+        <div class="form-group">
+            <h2>DELIVERY ADDRESS</h2>
+
+            <form action="" id="myformPayment">
+
+                        <input type="text" class="form-control" id="name"  placeholder="Name*">
+                        
+                        <input type="address"    class="form-control" id="address"  placeholder="Address*">
+                
+                        <input type="city"  class="form-control" id="inputCity"  placeholder="City*">
+                    
+                        <input type="state"  class="form-control" id="inputState"  placeholder="State*">
+                    
+                        <input type="zip"  class="form-control"  id="inputZip" placeholder="Zip *">
+                    
+                        <input type="text"  class="form-control"id="number"placeholder="Number *">
+
+                        <input type="country"  class="form-control" id="inputcountry"  placeholder="Country*"> 
+
+                        <!-- <button id="processed_to_payment">Processed To Payment</button> -->
+
+                </form>
+        </div>
+       
+        <div id="paymentType">
+            <h2>PAYMENT TYPE</h2>
+
+            <div> <a style="text-decoration: none;" href="payment.html"> <div id="addCreditDiv"> <i class="fa-solid fa-credit-card fa-1.8x"></i><p>ADD CREDIT/DEBIT CARD</p></div></a></div>
+            
+            <h3>OR</h3>
+            
+            <div> <a style="text-decoration: none;" href="payment.html"> <div id="addCreditDiv2"> <i class="fa-brands fa-cc-paypal"></i> <p>PAYPAL</p></div></a></div>
+
+        </div>
+        <div><img style="width: 570px; margin-top: 20px;" src="/payment-page-we-accept-cards.PNG" alt=""></div>
+
+
+    </div>
 </body>
 </html>

@@ -85,8 +85,8 @@
 .indexChild_15{
     margin-top: 5px ;
     font-size: 11px;
-    margin-bottom: 8px;
-    color: ro;
+    margin-bottom: 6px;
+    color: rgb(245, 242, 242);
 }
 #indexDiv2{
     margin-top: 45px;
@@ -94,28 +94,7 @@
     justify-items: center;
     text-align: center;
 }
-#indexDiv3{
-    height: 510px;
-    width: 85%;
-    /* border: 1px solid red; */
-    margin: auto;
-    margin-top: 28px;
-    margin-bottom: 35px;
-    text-align: center;
-}
-.indexChild_31{
-    height: 510px;
-    width: 99%;
-    cursor: pointer;
 
-}
-/* .indexChild_31{
-    height: 500px;
-    margin-top: 30px;
-    margin-left: 97px;
-    cursor: pointer;
-
-} */
 #indexDiv4{
     width: 70%;
     margin: auto;
@@ -124,6 +103,39 @@
     margin-top: 20px;
     margin-bottom: 40px;
 
+}
+#indexDiv3{
+    height: 475px;
+    /* width: 85%; */
+    width: 1258px;
+    /* border: 1px solid red; */
+    display: grid;
+    grid-template-columns: repeat(4,300px);
+    justify-content: space-between;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+#indexDiv3>div{
+
+    cursor: pointer;
+    /* border: 1px solid rgb(243, 100, 188); */
+
+}
+.indexChild_311>:nth-child(1){
+    width: 300px;
+    height: 382px;
+}
+.indexChild_311>:nth-child(2){
+    font-size: 19px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+.indexChild_311>:nth-child(3){
+    font-size: 16px;
+     margin-top: 5px;
 }
 .indexChild_41{
     height: 650px;
@@ -190,6 +202,9 @@
     margin-left: 5px;
 
 }
+
+/* footer div */
+
 #footerDiv1{
     height: 45px;
     width: 100%;

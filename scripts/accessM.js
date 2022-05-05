@@ -89,7 +89,7 @@ function appendProduct(Mens_Clothing) {
       cartArr.push(elem);
       localStorage.setItem("asosArr", JSON.stringify(cartArr));
       console.log(cartArr);
-      window.location.href="buyClothing.html"
+      window.location.href="buyProducts.html"
     //   alert("Product added to the cart!");
     })
 
@@ -134,10 +134,11 @@ function sortByPrice() {
         }
     })
 }
-document.querySelector("#filter").addEventListener("click", filterItems);
 
 
 // filter_Function
+
+document.querySelector("#filter").addEventListener("click", filterItems);
 
 function filterItems(){
     var filter=document.getElementById("filter").value;

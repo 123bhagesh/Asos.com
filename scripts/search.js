@@ -36,6 +36,8 @@ fot.innerHTML=footerBottom()
 let Mens_Clothing =
 
 [
+    // Men_Clothing
+
 {"name":"541 ASOS DESIGN lounge trousers in woven stripe","price":"15","color":"woven stripe","image":"https://images.asos-media.com/products/asos-design-lounge-trousers-in-woven-stripe/201179743-1-multi?$n_480w$&wid=476&fit=constrain"},
 {"name":"Carhartt WIP vista tie dye socks in purple","price":"21","color":"purple","image":"https://images.asos-media.com/products/carhartt-wip-vista-tie-dye-socks-in-purple/201995418-1-purple?$n_480w$&wid=476&fit=constrain"},
 {"name":"124 ASOS DESIGN regular revere viscose shirt in bright blue","color":" bright blue","price":"22","image":"https://images.asos-media.com/products/asos-design-regular-revere-viscose-shirt-in-bright-blue/202440625-1-cobaltblue?$n_480w$&wid=476&fit=constrain"},
@@ -81,8 +83,33 @@ let Mens_Clothing =
 {"name":"ASOS DESIGN 9mm hoop earrings in real silver plate","price":"9","color":"Silver","image":"https://images.asos-media.com/products/asos-design-9mm-hoop-earrings-in-real-silver-plate/22049434-1-silver?$n_480w$&wid=476&fit=constrain"},
 {"name":"86 New Look puff sleeve corset top in black","price":"19","color":"Black","image":"https://images.asos-media.com/products/new-look-puff-sleeve-corset-top-in-black/203057379-1-black?$n_480w$&wid=476&fit=constrain"},
 {"name":"New Look ditsy lace vest in white pattern","price":"10","color":"White","image":"https://images.asos-media.com/products/new-look-ditsy-lace-vest-in-white-pattern/203054103-1-white?$n_480w$&wid=476&fit=constrain"},
-{"name":"New Look tall floral split midi skirt in black","price":"22","color":"Black Floral","image":"https://images.asos-media.com/products/new-look-tall-floral-split-midi-skirt-in-black/203019735-1-blackfloral?$n_480w$&wid=476&fit=constrain"}]
+{"name":"New Look tall floral split midi skirt in black","price":"22","color":"Black Floral","image":"https://images.asos-media.com/products/new-look-tall-floral-split-midi-skirt-in-black/203019735-1-blackfloral?$n_480w$&wid=476&fit=constrain"},
 
+//shoes
+
+{"name":"Polo Ralph Lauren court trainer in white/green with pony logo","price":"90","color":"MULTI","image":"https://images.asos-media.com/products/polo-ralph-lauren-court-trainer-in-white-green-with-pony-logo/201879757-1-multi?$n_480w$&wid=476&fit=constrain"},
+{"name":"Levi's square high trainer with red tab in white","price":"70","color":"WHITE","image":"https://images.asos-media.com/products/levis-square-high-trainer-with-red-tab-in-white/202363011-1-white?$n_480w$&wid=476&fit=constrain"},
+{"name":"57 Polo Ralph Lauren trackster 200II sock trainer in cream/ grey with pony tongue logo","price":"137","color":"CREAM","image":"https://images.asos-media.com/products/polo-ralph-lauren-trackster-200ii-sock-trainer-in-cream-grey-with-pony-tongue-logo/201896631-1-cream?$n_480w$&wid=476&fit=constrain"},
+{"name":"Polo Ralph Lauren trackster leather trainer with pony logo in blue suede","price":"126","color":"BLUE","image":"https://images.asos-media.com/products/polo-ralph-lauren-trackster-leather-trainer-with-pony-logo-in-blue-suede/201896394-1-blue?$n_480w$&wid=476&fit=constrain"},
+{"name":"Polo Ralph Lauren court trainer in white/green with pony logo","price":"90","color":"MULTI","image":"https://images.asos-media.com/products/polo-ralph-lauren-court-trainer-in-white-green-with-pony-logo/201879757-1-multi?$n_480w$&wid=476&fit=constrain"},
+{"name":"Asra Foza chain loafers in brown suede","price":"65","color":" BROWN","image":"https://images.asos-media.com/products/asra-foza-chain-loafers-in-brown-suede/201916910-1-brown?$n_480w$&wid=476&fit=constrain"},
+{"name":"adidas Originals Court Rallye slip on trainers in black","price":"34","color":"Black","image":"https://images.asos-media.com/products/adidas-originals-court-rallye-slip-on-trainers-in-black/22978509-1-black?$n_480w$&wid=476&fit=constrain"},
+{"name":"271 Walk London Benjamin snaffle sandals in black leather","price":"65","color":"Black","image":"https://images.asos-media.com/products/walk-london-benjamin-snaffle-sandals-in-black-leather/201504864-1-black?$n_480w$&wid=476&fit=constrain"},
+{"name":"Vans Era Tie Dye trainers in orange","price":"38","color":"Bandana tie dyeorang","image":"https://images.asos-media.com/products/vans-era-tie-dye-trainers-in-orange/23440771-1-bandanatiedyeorang?$n_480w$&wid=476&fit=constrain"},
+{"name":"Topman grey piper emboss tassel loafers","price":"16","color":"Grey","image":"https://images.asos-media.com/products/topman-grey-piper-emboss-tassel-loafers/203080750-1-grey?$n_480w$&wid=476&fit=constrain"},
+{"name":"Nike Victori One sliders in wheat/brown","price":"27","color":"Brown","image":"https://images.asos-media.com/products/nike-victori-one-sliders-in-wheat-brown/201493267-1-brown?$n_480w$&wid=476&fit=constrain"},
+{"name":"Nike Air Max Dawn trainers in white/malachite","price":"104","color":" White/Green","image":"https://images.asos-media.com/products/nike-air-max-dawn-trainers-in-white-malachite/201492129-1-whitegreen?$n_480w$&wid=476&fit=constrain"},
+{"name":"Schuh reuben lace up shoes in brown leather","price":"49","color":"Brown","image":"https://images.asos-media.com/products/schuh-reuben-lace-up-shoes-in-brown-leather/202041819-1-brown?$n_480w$&wid=476&fit=constrain"},
+{"name":"Havaianas Brasil logo flip flops in navy","price":"26","color":"NAVY","image":"https://images.asos-media.com/products/havaianas-brasil-logo-flip-flops-in-navy/201647277-1-navy?$n_480w$&wid=476&fit=constrain"},
+{"name":"Walk London Riva snaffle loafers in beige suede","price":"75","color":"NEUTRAL","image":"https://images.asos-media.com/products/walk-london-riva-snaffle-loafers-in-beige-suede/201587799-1-neutral?$n_480w$&wid=476&fit=constrain"},
+{"name":"Walk London Terry Snaffle loafers in pink suede","price":"65","color":"Pink","image":"https://images.asos-media.com/products/walk-london-terry-snaffle-loafers-in-pink-suede/201507718-1-pink?$n_480w$&wid=476&fit=constrain"},
+{"name":"adidas Running Questar trainers in grey and blue","price":"74","color":"Grey","image":"https://images.asos-media.com/products/adidas-running-questar-trainers-in-grey-and-blue/202662296-1-grey?$n_480w$&wid=476&fit=constrain"},
+{"name":"158 adidas Originals Geodiver Primeblue trainers in crystal white","price":"75","color":"White","image":"https://images.asos-media.com/products/adidas-originals-geodiver-primeblue-trainers-in-crystal-white/201270974-1-white?$n_480w$&wid=476&fit=constrain"},
+{"name":"Buffalo cloud corin chain vegan trainers in black","price":"110","color":"Black","image":"https://images.asos-media.com/products/buffalo-cloud-corin-chain-vegan-trainers-in-black/201297176-1-black?$n_480w$&wid=476&fit=constrain"},
+{"name":"Clarks Originals desert coal boots in green camo","price":"13","color":"","image":"https://images.asos-media.com/products/clarks-originals-desert-coal-boots-in-green-camo/201243339-1-green?$n_480w$&wid=476&fit=constrain"},
+{"name":"Clarks Originals desert coal boots in green camo","price":"130","color":"Green","image":"https://images.asos-media.com/products/clarks-originals-desert-coal-boots-in-green-camo/201243339-1-green?$n_480w$&wid=476&fit=constrain"},
+{"name":"237 ASOS DESIGN mule loafer in black faux leather with embossed detail","price":"40","color":"Black","image":"https://images.asos-media.com/products/asos-design-mule-loafer-in-black-faux-leather-with-embossed-detail/201129199-1-black?$n_480w$&wid=476&fit=constrain"}
+]
 
 
 
@@ -113,7 +140,7 @@ function appendProduct(Mens_Clothing) {
       cartArr.push(elem);
       localStorage.setItem("asosArr", JSON.stringify(cartArr));
       console.log(cartArr);
-      window.location.href="buyClothing.html"
+      window.location.href="buyProducts.html"
     //   alert("Product added to the cart!");
     })
 
@@ -135,8 +162,8 @@ appendProduct(Mens_Clothing);
 
    //  console.log(searchText);
     var filterdata=Mens_Clothing.filter(function(elem,index){
-                 return elem.name.includes(data);
-    
+                 return elem.name.toLowerCase().includes(data);
+
     })
 
 

@@ -1,23 +1,42 @@
+import {topSearch} from "../components/topnavbar.js";
 
-import {categories_Navbar,categories_Navbar2} from "../components/categories.js";
+// console.log(categories_Navbar,categories_Navbar2)
+let viewAll =document.getElementById("clothTopNavbar")
 
-console.log(categories_Navbar,categories_Navbar2)
-let viewAll =document.getElementById("clothNavbar")
-
-viewAll.innerHTML=categories_Navbar()
+viewAll.innerHTML=topSearch()
 console.log(viewAll)
 
-// import {categories_Navbar2} from "../components/categories.js";
 
-let viewAll2 =document.getElementById("clothNavbar2")
+import {men_Mega_navbar} from "../components/mens_mega_navbar.js";
 
-viewAll2.innerHTML=categories_Navbar2()
+let viewAll2 =document.getElementById("clothMegaNavbar2")
+
+viewAll2.innerHTML=men_Mega_navbar()
 console.log(viewAll2)
+
+import{categories_Navbar_Discount,categories_Sorting}from "../components/categoriesV2.js";
+
+let viewAll3 =document.getElementById("categories_Discount_Img")
+
+viewAll3.innerHTML=categories_Navbar_Discount()
+console.log(viewAll3)
+
+
+let viewAll4 =document.getElementById("sort_Append_Div")
+
+viewAll4.innerHTML=categories_Sorting()
+console.log(viewAll4)
+
+import {footerBottom} from "../components/footer.js"
+
+let fot= document.getElementById("footerDiv124");
+fot.innerHTML=footerBottom()
+console.log(fot)
 
 
 ///////////////////////////////
 
-
+//View All Data
 
 let view_All =
 
@@ -28,8 +47,6 @@ let view_All =
 
     {"name":"River Island Wide Fit toe thong low heel sandal in beige","price":"48","color":"BEIGE","image":"https://images.asos-media.com/products/river-island-wide-fit-toe-thong-low-heel-sandal-in-beige/202694648-1-beige?$n_480w$&wid=476&fit=constrain"},
     {"name":"NEOM Sleep Heroes Set","price":"42","color":"No Colour","image":"https://images.asos-media.com/products/neom-sleep-heroes-set/202780331-1-nocolour?$n_480w$&wid=476&fit=constrain"},
-
-
 
 {"name":"Calvin Klein large icon logo wallet in black","price":"69","color":"Black Mono","image":"https://images.asos-media.com/products/calvin-klein-large-icon-logo-wallet-in-black/202359274-1-blackmono?$n_480w$&wid=476&fit=constrain"},
 {"name":"ASOS DESIGN recycled frame square sunglasses in black with solid black lens","price":"9","color":"Black","image":"https://images.asos-media.com/products/asos-design-recycled-frame-square-sunglasses-in-black-with-solid-black-lens/23132982-1-black?$n_480w$&wid=476&fit=constrain"},
@@ -103,74 +120,110 @@ let view_All =
 
 
 /////
-var hairDiv = document.getElementById("container");
+var hairDiv = document.getElementById("containerDiv");
 
 var cartArr = [];
 
 function appendProduct(view_All) {
-  hairDiv.innerHTML = null;
-  view_All.forEach(function (elem) {
-
-    let box = document.createElement("div");
-    box.setAttribute("id","div1")
-
-    let image = document.createElement("img");
-    image.src = elem.image;
-
-    let name = document.createElement("p");
-    name.innerText = elem.name;
-
-    let price = document.createElement("p");
-    price.innerText = "£"+""+ elem.price+".00"
-
-
-    box.addEventListener("click", function () {
-    //   event.preventDefault();
-      cartArr.push(elem);
-      localStorage.setItem("asosArr", JSON.stringify(cartArr));
-      console.log(cartArr);
-      window.location.href="buyClothing.html"
-    //   alert("Product added to the cart!");
-    })
-
- 
-    box.append(image, name, price);
-    hairDiv.append(box);
-  });
-}
-appendProduct(view_All);
-
-document.querySelector("#sorter").addEventListener("click", sortByPrice);
-function sortByPrice() {
-    view_All.map(function (elem) {
-        var sorting = document.querySelector("#sorter").value;
-        console.log(sorting);
-        if (sorting == "l2h") {
-            view_All.sort(function (a, b) { return a.price - b.price })
-            appendProduct(view_All)
-        }
-        else if (sorting == "h2l") {
-            view_All.sort(function (a, b) { return b.price - a.price })
-            appendProduct(view_All)
-        }
-
-        else if (sorting == "a2z") {
-            function SortArray(x, y) {
-                if (x.name < y.name) { return -1; }
-                if (x.name > y.name) { return 1; }
-                return 0;
-            }
-            var s = view_All.sort(SortArray)
-            appendProduct(s)
-        }
-        else if (sorting == "z2a") {
-            function SortArray(x, y) {
-                if (x.name > y.name) { return -1; }
-                if (x.name < y.name) { return 1; }
-                return 0;
-            }
-            var sort = view_All.sort(SortArray)
-            appendProduct(sort)
-        }
-    })
-}
+    hairDiv.innerHTML = null;
+    view_All.forEach(function (elem) {
+  
+      let box = document.createElement("div");
+      box.setAttribute("id","div111")
+  
+      let image = document.createElement("img");
+      image.src = elem.image;
+  
+      let name = document.createElement("p");
+      name.innerText = elem.name;
+  
+      let price = document.createElement("p");
+      price.innerText = "£"+""+ elem.price+".00"
+  
+  
+      box.addEventListener("click", function () {
+      //   event.preventDefault();
+        cartArr.push(elem);
+        localStorage.setItem("asosArr", JSON.stringify(cartArr));
+        console.log(cartArr);
+        window.location.href="buyProducts.html"
+      //   alert("Product added to the cart!");
+      })
+  
+   
+      box.append(image, name, price);
+      hairDiv.append(box);
+    });
+  }
+  appendProduct(view_All);
+  
+  document.querySelector("#sorter").addEventListener("click", sortByPrice);
+  function sortByPrice() {
+      view_All.map(function (elem) {
+          var sorting = document.querySelector("#sorter").value;
+          console.log(sorting);
+          if (sorting == "l2h") {
+              view_All.sort(function (a, b) { return a.price - b.price })
+              appendProduct(view_All)
+          }
+          else if (sorting == "h2l") {
+              view_All.sort(function (a, b) { return b.price - a.price })
+              appendProduct(view_All)
+          }
+  
+          else if (sorting == "a2z") {
+              function SortArray(x, y) {
+                  if (x.name < y.name) { return -1; }
+                  if (x.name > y.name) { return 1; }
+                  return 0;
+              }
+              var s = view_All.sort(SortArray)
+              appendProduct(s)
+          }
+          else if (sorting == "z2a") {
+              function SortArray(x, y) {
+                  if (x.name > y.name) { return -1; }
+                  if (x.name < y.name) { return 1; }
+                  return 0;
+              }
+              var sort = view_All.sort(SortArray)
+              appendProduct(sort)
+          }
+      })
+  }
+  
+  
+  // filter_Function
+  
+  document.querySelector("#filter").addEventListener("click", filterItems);
+  
+  function filterItems(){
+      var filter=document.getElementById("filter").value;
+         var filterdata=view_All.filter(function(elem,index){
+                      return elem.price > Number(filter);
+         })
+         appendProduct(filterdata);
+      //    document.getElementById("items").textContent = filterdata.length;
+     }
+    
+  
+    //    search_Function
+  
+     let  asosSearchArr=[]
+    let searchAsosProd = document.getElementById("searchTextData").addEventListener("keyup",searchAsos);
+    function searchAsos(e){
+      if(e.key==="Enter"){
+       var searchText=document.getElementById("searchTextData").value;
+  
+       asosSearchArr.push(searchText)
+       localStorage.setItem("inpData",JSON.stringify(asosSearchArr))
+  
+       console.log(searchText);
+  
+      //  window.Location.href="search.html"
+       window.location.href="search.html"
+  
+      }
+  
+    }
+  

@@ -94,7 +94,7 @@ function appendProduct(Mens_Clothing) {
       cartArr.push(elem);
       localStorage.setItem("asosArr", JSON.stringify(cartArr));
       console.log(cartArr);
-      window.location.href="buyClothing.html"
+      window.location.href="buyProducts.html"
     //   alert("Product added to the cart!");
     })
 

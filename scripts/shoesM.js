@@ -1,24 +1,43 @@
-import {categories_Navbar,categories_Navbar2} from "../components/categories.js";
+import {topSearch} from "../components/topnavbar.js";
 
 // console.log(categories_Navbar,categories_Navbar2)
-let viewAll =document.getElementById("clothNavbar")
+let viewAll =document.getElementById("clothTopNavbar")
 
-viewAll.innerHTML=categories_Navbar()
+viewAll.innerHTML=topSearch()
 console.log(viewAll)
 
-// import {categories_Navbar2} from "../components/categories.js";
 
-let viewAll2 =document.getElementById("clothNavbar2")
+import {men_Mega_navbar} from "../components/mens_mega_navbar.js";
 
-viewAll2.innerHTML=categories_Navbar2()
+let viewAll2 =document.getElementById("clothMegaNavbar2")
+
+viewAll2.innerHTML=men_Mega_navbar()
 console.log(viewAll2)
 
+import{categories_Navbar_Discount,categories_Sorting}from "../components/categoriesV2.js";
+
+let viewAll3 =document.getElementById("categories_Discount_Img")
+
+viewAll3.innerHTML=categories_Navbar_Discount()
+console.log(viewAll3)
+
+
+let viewAll4 =document.getElementById("sort_Append_Div")
+
+viewAll4.innerHTML=categories_Sorting()
+console.log(viewAll4)
+
+import {footerBottom} from "../components/footer.js"
+
+let fot= document.getElementById("footerDiv124");
+fot.innerHTML=footerBottom()
+console.log(fot)
 
 ///////////////////////////////
 
+//   shoes Data
 
-
-let shoes_Men =
+let Mens_Shoes =
 
 [
     {"name":"Polo Ralph Lauren court trainer in white/green with pony logo","price":"90","color":"MULTI","image":"https://images.asos-media.com/products/polo-ralph-lauren-court-trainer-in-white-green-with-pony-logo/201879757-1-multi?$n_480w$&wid=476&fit=constrain"},
@@ -46,16 +65,16 @@ let shoes_Men =
     ]
 
 /////
-var hairDiv = document.getElementById("container");
+var hairDiv = document.getElementById("containerDiv");
 
 var cartArr = [];
 
-function appendProduct(shoes_Men) {
+function appendProduct(Mens_Shoes) {
   hairDiv.innerHTML = null;
-  shoes_Men.forEach(function (elem) {
+  Mens_Shoes.forEach(function (elem) {
 
     let box = document.createElement("div");
-    box.setAttribute("id","div1")
+    box.setAttribute("id","div111")
 
     let image = document.createElement("img");
     image.src = elem.image;
@@ -72,7 +91,7 @@ function appendProduct(shoes_Men) {
       cartArr.push(elem);
       localStorage.setItem("asosArr", JSON.stringify(cartArr));
       console.log(cartArr);
-      window.location.href="buyClothing.html"
+      window.location.href="buyProducts.html"
     //   alert("Product added to the cart!");
     })
 
@@ -81,20 +100,20 @@ function appendProduct(shoes_Men) {
     hairDiv.append(box);
   });
 }
-appendProduct(shoes_Men);
+appendProduct(Mens_Shoes);
 
 document.querySelector("#sorter").addEventListener("click", sortByPrice);
 function sortByPrice() {
-    shoes_Men.map(function (elem) {
+    Mens_Shoes.map(function (elem) {
         var sorting = document.querySelector("#sorter").value;
         console.log(sorting);
         if (sorting == "l2h") {
-            shoes_Men.sort(function (a, b) { return a.price - b.price })
-            appendProduct(shoes_Men)
+            Mens_Shoes.sort(function (a, b) { return a.price - b.price })
+            appendProduct(Mens_Shoes)
         }
         else if (sorting == "h2l") {
-            shoes_Men.sort(function (a, b) { return b.price - a.price })
-            appendProduct(shoes_Men)
+            Mens_Shoes.sort(function (a, b) { return b.price - a.price })
+            appendProduct(Mens_Shoes)
         }
 
         else if (sorting == "a2z") {
@@ -103,7 +122,7 @@ function sortByPrice() {
                 if (x.name > y.name) { return 1; }
                 return 0;
             }
-            var s = shoes_Men.sort(SortArray)
+            var s = Mens_Shoes.sort(SortArray)
             appendProduct(s)
         }
         else if (sorting == "z2a") {
@@ -112,8 +131,43 @@ function sortByPrice() {
                 if (x.name < y.name) { return 1; }
                 return 0;
             }
-            var sort = shoes_Men.sort(SortArray)
+            var sort = Mens_Shoes.sort(SortArray)
             appendProduct(sort)
         }
     })
 }
+
+
+// filter_Function
+
+document.querySelector("#filter").addEventListener("click", filterItems);
+
+function filterItems(){
+    var filter=document.getElementById("filter").value;
+       var filterdata=Mens_Shoes.filter(function(elem,index){
+                    return elem.price > Number(filter);
+       })
+       appendProduct(filterdata);
+    //    document.getElementById("items").textContent = filterdata.length;
+   }
+  
+
+  //    search_Function
+
+   let  asosSearchArr=[]
+  let searchAsosProd = document.getElementById("searchTextData").addEventListener("keyup",searchAsos);
+  function searchAsos(e){
+    if(e.key==="Enter"){
+     var searchText=document.getElementById("searchTextData").value;
+
+     asosSearchArr.push(searchText)
+     localStorage.setItem("inpData",JSON.stringify(asosSearchArr))
+
+     console.log(searchText);
+
+    //  window.Location.href="search.html"
+     window.location.href="search.html"
+
+    }
+
+  }

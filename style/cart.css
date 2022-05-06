@@ -37,6 +37,8 @@ body{
     grid-template-columns: repeat(1,100%);
     grid-template-rows: 70px;
     margin-bottom: 100px;
+    position: -webkit-sticky;
+    position: sticky;
 
     
 
@@ -116,6 +118,8 @@ body{
     /* border: 4px solid green; */
     width: 82%;
     height: 390px;
+    position: -webkit-sticky;
+    position: sticky;
     
 }
 #totalDiv>:nth-child(1){

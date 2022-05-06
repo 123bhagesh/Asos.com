@@ -36,19 +36,11 @@ console.log(fot)
 ///////////////////////////////
 
 
+// let shoes New In
 
 let Mens_Clothing =
 
-[
-{"name":"541 ASOS DESIGN lounge trousers in woven stripe","price":"15","color":"woven stripe","image":"https://images.asos-media.com/products/asos-design-lounge-trousers-in-woven-stripe/201179743-1-multi?$n_480w$&wid=476&fit=constrain"},
-{"name":"Bershka baggy jeans with rips in faded blue","price":"36","color":"Faded blue","image":"https://images.asos-media.com/products/bershka-baggy-jeans-with-rips-in-faded-blue/202914801-1-fadedblue?$n_480w$&wid=476&fit=constrain"},
-{"name":"ASOS DESIGN baggy jeans in white with heavy rips","price":"36","color":"White","image":"https://images.asos-media.com/products/asos-design-baggy-jeans-in-white-with-heavy-rips/201661710-1-white?$n_480w$&wid=476&fit=constrain"},
-
-{"name":"Carhartt WIP vista tie dye socks in purple","price":"21","color":"purple","image":"https://images.asos-media.com/products/carhartt-wip-vista-tie-dye-socks-in-purple/201995418-1-purple?$n_480w$&wid=476&fit=constrain"},
-{"name":"124 ASOS DESIGN regular revere viscose shirt in bright blue","color":" bright blue","price":"22","image":"https://images.asos-media.com/products/asos-design-regular-revere-viscose-shirt-in-bright-blue/202440625-1-cobaltblue?$n_480w$&wid=476&fit=constrain"},
-{"name":"ASOS DESIGN boxy oversized shirt in yellow and pink painted check","color":"yellow and pink","price":"26","image":"https://images.asos-media.com/products/asos-design-boxy-oversized-shirt-in-yellow-and-pink-painted-check/202579390-1-yellow?$n_480w$&wid=476&fit=constrain"},
-{"name":"476 Abercrombie & Fitch back gel logo heavyweight oversized t-shirt in white","color":"white","price":"29","image":"https://images.asos-media.com/products/abercrombie-fitch-back-gel-logo-heavyweight-oversized-t-shirt-in-white/202851446-1-white?$n_480w$&wid=476&fit=constrain"},
-{"name":"ASOS DESIGN co-ord boxy oversized shirt in heavy cotton twill","price":"30","color":" LIGHT BLUE","image":"https://images.asos-media.com/products/asos-design-co-ord-boxy-oversized-shirt-in-heavy-cotton-twill/201779954-1-lightblue?$n_480w$&wid=476&fit=constrain"},
+[{"name":"ASOS DESIGN co-ord boxy oversized shirt in heavy cotton twill","price":"30","color":" LIGHT BLUE","image":"https://images.asos-media.com/products/asos-design-co-ord-boxy-oversized-shirt-in-heavy-cotton-twill/201779954-1-lightblue?$n_480w$&wid=476&fit=constrain"},
 {"name":"ASOS DESIGN 90s oversized cord shirt in pink","price":"27","color":"Pink","image":"https://images.asos-media.com/products/asos-design-90s-oversized-cord-shirt-in-pink/20774925-1-pink?$n_480w$&wid=476&fit=constrain"},{"name":"New Look long sleeve oxford shirt in khaki","price":"18","color":"Khaki","image":"https://images.asos-media.com/products/new-look-long-sleeve-oxford-shirt-in-khaki/200757244-1-khaki?$n_480w$&wid=476&fit=constrain"},
 {"name":"ASOS DESIGN relaxed revere shirt in light base floral","price":"22","color":"WHITE","image":"https://images.asos-media.com/products/asos-design-relaxed-revere-shirt-in-light-base-floral/202579432-1-white?$n_480w$&wid=476&fit=constrain"},{"name":"Topman knitted splice zip polo in blue","price":"30","color":"Blue","image":"https://images.asos-media.com/products/topman-knitted-splice-zip-polo-in-blue/201805761-1-blue?$n_480w$&wid=476&fit=constrain"},{"name":"ASOS DESIGN regular sheer shirt with ruffle front detail in lilac","price":"30","color":"LILAC","image":"https://images.asos-media.com/products/asos-design-regular-sheer-shirt-with-ruffle-front-detail-in-lilac/201921650-1-lilac?$n_480w$&wid=476&fit=constrain"},
 {"name":"Barbour Harris tartan shirt in light blue","price":"70","color":"Blue","image":"https://images.asos-media.com/products/barbour-harris-tartan-shirt-in-light-blue/202252444-1-blue?$n_480w$&wid=476&fit=constrain"},
@@ -65,27 +57,8 @@ let Mens_Clothing =
 {"name":"Only & Sons vest with Paradise back print in navy","price":"15","color":"navy","image":"https://images.asos-media.com/products/only-sons-vest-with-paradise-back-print-in-navy/202729846-1-darknavy?$n_480w$&wid=476&fit=constrain"},
 {"name":"Only & Sons vest with mandala back print in white","price":"15","color":" white","image":"https://images.asos-media.com/products/only-sons-vest-with-mandala-back-print-in-white/202729794-1-white?$n_480w$&wid=476&fit=constrain"},
 {"name":"ASOS DESIGN slim jean in black with elasticated hem","price":"34","color":"Washed black","image":"https://images.asos-media.com/products/asos-design-slim-jean-in-black-with-elasticated-hem/201984674-1-washedblack?$n_480w$&wid=476&fit=constrain"},
-{"name":"Only & Sons vest with Seoul back print in black","price":"15","color":"black","image":"https://images.asos-media.com/products/only-sons-vest-with-seoul-back-print-in-black/202729310-1-black?$n_480w$&wid=476&fit=constrain"},
-{"name":"Abercrombie & Fitch 3D icon logo slim fit pique polo in red","price":"35","color":"red","image":"https://images.asos-media.com/products/abercrombie-fitch-3d-icon-logo-slim-fit-pique-polo-in-red/202666080-1-red?$n_480w$&wid=476&fit=constrain"},
-{"name":"Abercrombie & Fitch 3D icon logo slim fit pique polo in green","price":"35","color":"green","image":"https://images.asos-media.com/products/abercrombie-fitch-3d-icon-logo-slim-fit-pique-polo-in-green/202666051-1-green?$n_480w$&wid=476&fit=constrain"},
-{"name":"Abercrombie & Fitch 3D icon logo slim fit pique polo shirt in light blue","price":"35","color":"light blue","image":"https://images.asos-media.com/products/asos-design-skinny-denim-shacket-in-light-wash/201370677-1-lightblue?$n_480w$&wid=476&fit=constrain"},
-{"name":"Abercrombie & Fitch 3D icon logo slim fit pique polo shirt in light blue","price":"35","color":"light blue","image":"https://images.asos-media.com/products/abercrombie-fitch-3d-icon-logo-slim-fit-pique-polo-shirt-in-light-blue/202666035-1-lightblue?$n_480w$&wid=476&fit=constrain"},
-{"name":"Only & Sons revere shirt in aztec print","price":"26","color":"aztec ","image":"https://images.asos-media.com/products/only-sons-revere-shirt-in-aztec-print/202626467-1-black?$n_480w$&wid=476&fit=constrain"},
-{"name":"Only & Sons revere shirt in checkerboard print","price":"26","color":"aztec ","image":"https://images.asos-media.com/products/only-sons-revere-shirt-in-checkerboard-print/202626246-1-pomegranite?$n_480w$&wid=476&fit=constrain"},
-{"name":"Bershka baggy jeans with rips in faded blue","price":"36","color":"Faded blue","image":"https://images.asos-media.com/products/bershka-baggy-jeans-with-rips-in-faded-blue/202914801-1-fadedblue?$n_480w$&wid=476&fit=constrain"},{"name":"ASOS DESIGN baggy jeans in white with heavy rips","price":"36","color":"White","image":"https://images.asos-media.com/products/asos-design-baggy-jeans-in-white-with-heavy-rips/201661710-1-white?$n_480w$&wid=476&fit=constrain"},
-
-{"name":"Only & Sons revere shirt with flower border print in navy","price":"26","color":"navy","image":"https://images.asos-media.com/products/only-sons-revere-shirt-with-flower-border-print-in-navy/202626238-1-darknavy?$n_480w$&wid=476&fit=constrain"},
-{"name":"Only & Sons knitted stripe t-shirt in navy and white","price":"26","color":"navy and white","image":"https://images.asos-media.com/products/only-sons-knitted-stripe-t-shirt-in-navy-and-white/202624710-1-darknavy?$n_480w$&wid=476&fit=constrain"},
-{"name":"Carhartt WIP pocket t-shirt in white","price":"37","color":"white","image":"https://images.asos-media.com/products/carhartt-wip-pocket-t-shirt-in-white/202587946-1-white?$n_480w$&wid=476&fit=constrain"},
-{"name":"Bershka baggy jeans with rips in faded blue","price":"36","color":"Faded blue","image":"https://images.asos-media.com/products/bershka-baggy-jeans-with-rips-in-faded-blue/202914801-1-fadedblue?$n_480w$&wid=476&fit=constrain"},{"name":"ASOS DESIGN baggy jeans in white with heavy rips","price":"36","color":"White","image":"https://images.asos-media.com/products/asos-design-baggy-jeans-in-white-with-heavy-rips/201661710-1-white?$n_480w$&wid=476&fit=constrain"},
-
-{"name":"251 ASOS DESIGN relaxed revere shirt in vintage inspired floral print","price":"27","color":"light blue","image":"https://images.asos-media.com/products/asos-design-skinny-denim-shirt-with-rips-in-light-blue/201607270-1-blue?$n_480w$&wid=476&fit=constrain"},
-{"name":"New Era New York Yankees oversized t-shirt in lilac","price":"32","color":"lilac","image":"https://images.asos-media.com/products/new-era-new-york-yankees-oversized-t-shirt-in-lilac/202122253-1-purple?$n_480w$&wid=476&fit=constrain"},
-{"name":"Hollister outdoors central & back logo print t-shirt in white","price":"19","color":"","image":"https://images.asos-media.com/products/hollister-outdoors-central-back-logo-print-t-shirt-in-white/202800428-1-white?$n_480w$&wid=476&fit=constrain"},
 ]
-
-
-/////
+///////////////////
 var hairDiv = document.getElementById("containerDiv");
 
 var cartArr = [];

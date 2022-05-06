@@ -5,6 +5,7 @@
     margin: auto;
     padding-top: 10px;
     border: 1px solid rgb(174, 174, 180);
+
    
     margin-bottom: 5px;
     justify-content: space-between;
@@ -13,11 +14,14 @@
     border-right: none;
     border-bottom: none;
 }
-#footerDiv1>i{
+
+i{
     margin-left: 51px;
+    /* display: flex; */
 }
 #footerDiv1>:nth-child(1){
     color: rgb(64, 64, 177);
+
 
 }
 #footerDiv1>:nth-child(2){
@@ -42,7 +46,7 @@
 }
 #footerDiv2{
     height: 210px;
-    width: 1410;
+    width: 1410px;
     display: flex;
     /* border: 1px solid red; */
     gap: 35px;

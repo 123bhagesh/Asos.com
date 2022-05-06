@@ -4,14 +4,22 @@ return`
 <div id="footerDIv">
                     
 <div id="footerDiv1">
-    <!-- <a href=""></a> -->
-    <i class="fa-brands fa-facebook fa-2x"></i>
-    <i class="fa-brands fa-instagram-square fa-2x"></i>
-    <i class="fa-brands fa-snapchat-square fa-2x"></i>
-    <i class="fa-brands fa-cc-visa fa-2x"></i>
-    <i class="fa-brands fa-cc-mastercard fa-2x"></i>
-    <i class="fa-brands fa-cc-paypal fa-2x"></i>
-    <i class="fa-brands fa-cc-amex fa-2x"></i>
+    
+      
+      <a href="https://www.facebook.com/"> <i class="fa-brands fa-facebook fa-2x"></i></a>
+      <a href="https://www.instagram.com/"> <i class="fa-brands fa-instagram-square fa-2x"></i></a>
+       <a href="https://www.snapchat.com/"> <i class="fa-brands fa-snapchat-square fa-2x"></i></a></li>
+       <a href="https://www.visa.co.in/"> <i class="fa-brands fa-cc-visa fa-2x"></i></a>
+       <a href="https://www.mastercard.co.in/"> <i class="fa-brands fa-cc-mastercard fa-2x"></i></i></a>
+       <a href="https://www.paypal.com/"> <i class="fa-brands fa-cc-paypal fa-2x"></i></a>
+        <a href="https://www.americanexpress.com/en-in/"><i class="fa-brands fa-cc-amex fa-2x"></i></a>
+
+      
+      
+      
+      
+    
+
 </div>
 
 <div id="footerDiv2">

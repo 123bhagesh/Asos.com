@@ -31,7 +31,7 @@ let men_Mega_navbar=()=>{
                     <li><a href = "clothingM.html">Clothing</a></li>
                     <li><a href = "shoesM.html">Shoes</a></li>
                     <li><a href = "accessM.html">Accessories</a></li>
-                    <li><a href = "faceBody.html">Face + Body</a></li>
+                    <li><a href = "facebodyM.html">Face + Body</a></li>
                   </ul>
                 </div>
                 <!-- end of item -->
@@ -65,9 +65,10 @@ let men_Mega_navbar=()=>{
                 <div class = "sub-menu-item">
                   <h4>SHOP BY PRODUCTS</h4>
                   <ul>
-                    <li><a href = "#">New in</a></li>
-                    <li><a href = "#">Shirt</a></li>
-                    <li><a href = "#">Jense</a></li>
+                    <li><a href = "clothingM.html">View all</a></li>
+                    <li><a href = "clothingNewM.html">New in</a></li>
+                    <li><a href = "shirtM.html">Shirt</a></li>
+                    <li><a href = "jenseM.html">Jense</a></li>
                     <!-- <li><a href = "#">women's shoes</a></li>
                     <li><a href = "#">clothing deals</a></li> -->
                   </ul>
@@ -97,10 +98,10 @@ let men_Mega_navbar=()=>{
                 <div class = "sub-menu-item">
                   <h4>TOP CATEGORIES</h4>
                   <ul>
-                    <li><a href = "#">View all</a></li>
-                    <li><a href = "#">New in</a></li>
-                    <li><a href = "#">Flat shoes</a></li>
-                    <li><a href = "#">Flat sandals</a></li>
+                    <li><a href = "shoesM.html">View all</a></li>
+                    <li><a href = "shoesnewM.html">New in</a></li>
+                    <li><a href = "shoeM.html">Shoes</a></li>
+                    <li><a href = "slipperM.html">Slipper</a></li>
                     <!-- <li><a href = "#">manicure & pedicure</a></li> -->
                   </ul>
                 </div>
@@ -128,10 +129,10 @@ let men_Mega_navbar=()=>{
                 <div class = "sub-menu-item">
                   <h4>SHOP BY PRODUCT</h4>
                   <ul>
-                    <li><a href = "#">View all</a></li>
-                    <li><a href = "#">New in</a></li>
-                    <li><a href = "#">Bag & Purses</a></li>
-                    <li><a href = "#">Belts</a></li>
+                    <li><a href = "accessM.html">View all</a></li>
+                    <li><a href = "accessNewM.html">New in</a></li>
+                    <li><a href = "bagM.html">Bag & Purses</a></li>
+                    <li><a href = "beltM.html">Belts</a></li>
                     <!-- <li><a href = "#">fitness & yoga</a></li> -->
                   </ul>
                 </div>
@@ -159,10 +160,10 @@ let men_Mega_navbar=()=>{
                 <div class = "sub-menu-item">
                   <h4>SHOP BY PRODUCT</h4>
                   <ul>
-                    <li><a href = "#">View all</a></li>
-                    <li><a href = "#">New in</a></li>
-                    <li><a href = "#">Bestsellers</a></li>
-                    <li><a href = "#">Body care</a></li>
+                    <li><a href = "facebodyM.html">View all</a></li>
+                    <li><a href = "bodyNewM.html">New in</a></li>
+                    <li><a href = "bodyCareM.html">Body care</a></li>
+                    <li><a href = "hairCareM.html">Hair care</a></a></li>
                     <!-- <li><a href = "#">fitness & yoga</a></li> -->
                   </ul>
                 </div>

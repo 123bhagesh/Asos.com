@@ -1,65 +1,68 @@
-import {categories_Navbar,categories_Navbar2} from "../components/categories.js";
+import {women_Mega_navbar} from "../components/womeMegannavbar.js"
 
-// console.log(categories_Navbar,categories_Navbar2)
-let viewAll =document.getElementById("clothNavbar")
+let n= document.getElementById("mega-navbar");
+n.innerHTML=women_Mega_navbar()
+console.log(n)
 
-viewAll.innerHTML=categories_Navbar()
-console.log(viewAll)
 
-import {footer} from "../components/footer.js"
+import {topSearch} from "../components/topnavbar.js"
+console.log(topSearch)
+let t= document.getElementById("top-search");
+t.innerHTML=topSearch()
+console.log(t)
 
-let fot= document.getElementById("footerDiv124");
-fot.innerHTML=footer()
-console.log(fot)
 
 // import {categories_Navbar2} from "../components/categories.js";
 
-let viewAll2 =document.getElementById("clothNavbar2")
 
-viewAll2.innerHTML=categories_Navbar2()
-console.log(viewAll2)
+import{categories_Navbar_Discount,categories_Sorting}from "../components/categoriesV2.js";
+
+console.log(categories_Navbar_Discount)
+let viewAll3 =document.getElementById("categories_Discount_Img")
+
+viewAll3.innerHTML=categories_Navbar_Discount()
+console.log(viewAll3)
 
 
-///////////////////////////////
+let viewAll4 =document.getElementById("sort_Append_Div")
 
+viewAll4.innerHTML=categories_Sorting()
+console.log(viewAll4)
 
+import {footerBottom} from "../components/footer.js"
 
-let Mens_Clothing =
+let fot= document.getElementById("footerDiv124");
+fot.innerHTML=footerBottom()
+console.log(fot)
 
+/////////////////////////////
+
+let Women_Clothing=
 [{"name":"New Look strappy sandal with block heel in black","price":"24","color":"Black","image":"https://images.asos-media.com/products/new-look-strappy-sandal-with-block-heel-in-black/202882903-1-black?$n_480w$&wid=476&fit=constrain"},
 {"name":"River Island Wide Fit toe thong low heel sandal in beige","price":"48","color":"BEIGE","image":"https://images.asos-media.com/products/river-island-wide-fit-toe-thong-low-heel-sandal-in-beige/202694648-1-beige?$n_480w$&wid=476&fit=constrain"},
 {"name":"River Island bow front platform sandal in black & white","price":"53","color":"WHITE","image":"https://images.asos-media.com/products/river-island-bow-front-platform-sandal-in-black-white/202617141-1-white?$n_480w$&wid=476&fit=constrain"},
 {"name":"River Island flatform sandal in white","price":"40","color":"White","image":"https://images.asos-media.com/products/river-island-flatform-sandal-in-white/202601892-1-white?$n_480w$&wid=476&fit=constrain"},
 {"name":"172 River Island flatform sandal in white","price":"40","color":"WHITE","image":"https://images.asos-media.com/products/river-island-flatform-sandal-in-white/202601892-1-white?$n_480w$&wid=476&fit=constrain"},
 {"name":"368 Ted Baker Heevia satin bow 90mm heeled sandal in dusty pink","price":"142","color":"Dusty Pink","image":"https://images.asos-media.com/products/ted-baker-heevia-satin-bow-90mm-heeled-sandal-in-dusty-pink/202359944-1-dustypink?$n_480w$&wid=476&fit=constrain"},
-{"name":"Simmi Wide Fit platform patent mules in stone","price":"42","color":"Stone","image":"https://images.asos-media.com/products/simmi-wide-fit-platform-patent-mules-in-stone/202194350-1-stone?$n_480w$&wid=476&fit=constrain"},
-{"name":"Simmi patent platform mules in stone","price":"42","color":"Stone","image":"https://images.asos-media.com/products/simmi-patent-platform-mules-in-stone/202193606-1-stone?$n_480w$&wid=476&fit=constrain"},
 {"name":"RAID Aysha tie ankle mid heeled sandals in orange","price":"33","color":"Orange","image":"https://images.asos-media.com/products/raid-aysha-tie-ankle-mid-heeled-sandals-in-orange/201397505-1-orange?$n_480w$&wid=476&fit=constrain"},
 {"name":"213 New Look chunky rope detail sandals in black","price":"30","color":"Black","image":"https://images.asos-media.com/products/new-look-chunky-rope-detail-sandals-in-black/202922278-1-black?$n_480w$&wid=476&fit=constrain"},
-{"name":"669 Skechers Go Run chunky trainers with pink trim in white leather mix","price":"60","color":"White","image":"https://images.asos-media.com/products/skechers-go-run-chunky-trainers-with-pink-trim-in-white-leather-mix/201950173-1-white?$n_480w$&wid=476&fit=constrain"},
-{"name":"Karl Lagerfeld Kapri zebra flatform trainers in white leather","price":"170","color":"White","image":"https://images.asos-media.com/products/karl-lagerfeld-kapri-zebra-flatform-trainers-in-white-leather/201179853-1-white?$n_480w$&wid=476&fit=constrain"},
 {"name":"Public Desire Chakra espadrille wedge heeled sandals in pink","price":"35","color":"Pink","image":"https://images.asos-media.com/products/public-desire-chakra-espadrille-wedge-heeled-sandals-in-pink/201611016-1-pink?$n_480w$&wid=476&fit=constrain"},
 {"name":"Ego Waverly block heel twist sandals in white","price":"24","color":"White","image":"https://images.asos-media.com/products/ego-waverly-block-heel-twist-sandals-in-white/201447215-1-white?$n_480w$&wid=476&fit=constrain"},
-{"name":"777 adidas Originals Forum triple platform trainers in black with silver details","price":"110","color":"Black","image":"https://images.asos-media.com/products/adidas-originals-forum-triple-platform-trainers-in-black-with-silver-details/200732826-1-black?$n_480w$&wid=476&fit=constrain"},
 {"name":"ASOS DESIGN Johanesburg premium leather espadrille mules in black","price":"36","color":"BLACK LEATHER","image":"https://images.asos-media.com/products/asos-design-johanesburg-premium-leather-espadrille-mules-in-black/201729639-1-blackleather?$n_480w$&wid=476&fit=constrain"},
-{"name":"537 South Beach Ibiza espadrille shoes in beige","price":"22","color":"Natural","image":"https://images.asos-media.com/products/south-beach-ibiza-espadrille-shoes-in-beige/201583412-1-natural?$n_480w$&wid=476&fit=constrain"},
-{"name":"537 South Beach Ibiza espadrille shoes in beige","price":"22","color":"Natural","image":"https://images.asos-media.com/products/south-beach-ibiza-espadrille-shoes-in-beige/201583412-1-natural?$n_480w$&wid=476&fit=constrain"},
-{"name":"990 Public Desire Wide Fit Howdy western boots in green mix","price":"45","color":"GREEN MIX","image":"https://images.asos-media.com/products/public-desire-wide-fit-howdy-western-boots-in-green-mix/201622463-1-greenmix?$n_480w$&wid=476&fit=constrain"},
 {"name":"103 Freedom Moses scented EVA sandals in white","price":"35","color":"White","image":"https://images.asos-media.com/products/freedom-moses-scented-eva-sandals-in-white/201780193-1-white?$n_480w$&wid=476&fit=constrain"}]
 
 
 
-/////
-var hairDiv = document.getElementById("container");
+var hairDiv = document.getElementById("containerDiv");
 
 var cartArr = [];
 
-function appendProduct(Mens_Clothing) {
+function appendProduct(Women_Clothing) {
   hairDiv.innerHTML = null;
-  Mens_Clothing.forEach(function (elem) {
+  Women_Clothing.forEach(function (elem) {
 
     let box = document.createElement("div");
-    box.setAttribute("id","div1")
+    box.setAttribute("id","div111")
 
     let image = document.createElement("img");
     image.src = elem.image;
@@ -85,20 +88,20 @@ function appendProduct(Mens_Clothing) {
     hairDiv.append(box);
   });
 }
-appendProduct(Mens_Clothing);
+appendProduct(Women_Clothing);
 
 document.querySelector("#sorter").addEventListener("click", sortByPrice);
 function sortByPrice() {
-    Mens_Clothing.map(function (elem) {
+    Women_Clothing.map(function (elem) {
         var sorting = document.querySelector("#sorter").value;
         console.log(sorting);
         if (sorting == "l2h") {
-            Mens_Clothing.sort(function (a, b) { return a.price - b.price })
-            appendProduct(Mens_Clothing)
+            Women_Clothing.sort(function (a, b) { return a.price - b.price })
+            appendProduct(Women_Clothing)
         }
         else if (sorting == "h2l") {
-            Mens_Clothing.sort(function (a, b) { return b.price - a.price })
-            appendProduct(Mens_Clothing)
+            Women_Clothing.sort(function (a, b) { return b.price - a.price })
+            appendProduct(Women_Clothing)
         }
 
         else if (sorting == "a2z") {
@@ -107,7 +110,7 @@ function sortByPrice() {
                 if (x.name > y.name) { return 1; }
                 return 0;
             }
-            var s = Mens_Clothing.sort(SortArray)
+            var s = Women_Clothing.sort(SortArray)
             appendProduct(s)
         }
         else if (sorting == "z2a") {
@@ -116,8 +119,49 @@ function sortByPrice() {
                 if (x.name < y.name) { return 1; }
                 return 0;
             }
-            var sort = Mens_Clothing.sort(SortArray)
+            var sort = Women_Clothing.sort(SortArray)
             appendProduct(sort)
         }
     })
 }
+document.querySelector("#filter").addEventListener("click", filterItems);
+
+
+// filter_Function
+
+function filterItems(){
+    var filter=document.getElementById("filter").value;
+       var filterdata=Women_Clothing.filter(function(elem,index){
+                    return elem.price > Number(filter);
+       })
+       appendProduct(filterdata);
+    //    document.getElementById("items").textContent = filterdata.length;
+   }
+  
+
+  //    search_Function
+
+   let  asosSearchArr=[]
+  let searchAsosProd = document.getElementById("searchTextData").addEventListener("keyup",searchAsos);
+  function searchAsos(e){
+    if(e.key==="Enter"){
+     var searchText=document.getElementById("searchTextData").value;
+
+     asosSearchArr.push(searchText)
+     localStorage.setItem("inpData",JSON.stringify(asosSearchArr))
+
+     console.log(searchText);
+
+    //  window.Location.href="search.html"
+     window.location.href="search.html"
+
+    }
+
+  }
+
+
+
+
+
+
+

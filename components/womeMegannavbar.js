@@ -29,11 +29,11 @@ let women_Mega_navbar =()=>{
                         <div class = "sub-menu-item">
                           <h4>NEW PRODUCTS</h4>
                           <ul>
-                            <li><a href = "clothing.html">View all</a></li>
-                            <li><a href = "clothing.html">Clothing</a></li>
-                            <li><a href = "#">Shoes</a></li>
-                            <li><a href = "#">Accessories</a></li>
-                            <li><a href = "#">Face + Body</a></li>
+                            <li><a href = "viewAllWo.html">View all</a></li>
+                            <li><a href = "clothingWo.html">Clothing</a></li>
+                            <li><a href = "shoesNewWo.html">Shoes</a></li>
+                            <li><a href = "accessWo.html">Accessories</a></li>
+                            <li><a href = "facebodyNewWo.html">Face + Body</a></li>
                           </ul>
                         </div>
 
@@ -59,9 +59,10 @@ let women_Mega_navbar =()=>{
                         <div class = "sub-menu-item">
                           <h4>SHOP BY PRODUCTS</h4>
                           <ul>
-                            <li><a href = "#">New in</a></li>
-                            <li><a href = "#">Dresses</a></li>
-                            <li><a href = "#">Tops</a></li>
+                            <li><a href = "clothingWo.html">New in</a></li>
+                            <li><a href = "dressesWo.html">Dresses</a></li>
+                            <li><a href = "topsWo.html">Tops</a></li>
+                            <li><a href = "blazersWo.html">Blazers</a></li>
                             <!-- <li><a href = "#">women's shoes</a></li>
                             <li><a href = "#">clothing deals</a></li> -->
                           </ul>
@@ -91,10 +92,11 @@ let women_Mega_navbar =()=>{
                         <div class = "sub-menu-item">
                           <h4>TOP CATEGORIES</h4>
                           <ul>
-                            <li><a href = "#">View all</a></li>
-                            <li><a href = "#">New in</a></li>
-                            <li><a href = "#">Flat shoes</a></li>
-                            <li><a href = "#">Flat sandals</a></li>
+                    
+                            <li><a href = "shoesNewWo.html">New in</a></li>
+                            <li><a href = "shoesWo.html"> Shoes</a></li>
+                            <li><a href = "heelsWo.html"> Heels</a></li>
+                            <li><a href = "sandelsWo.html">Sandels</a></li>
                             <!-- <li><a href = "#">manicure & pedicure</a></li> -->
                           </ul>
                         </div>
@@ -122,10 +124,10 @@ let women_Mega_navbar =()=>{
                         <div class = "sub-menu-item">
                           <h4>SHOP BY PRODUCT</h4>
                           <ul>
-                            <li><a href = "#">View all</a></li>
-                            <li><a href = "#">New in</a></li>
-                            <li><a href = "#">Bag & Purses</a></li>
-                            <li><a href = "#">Belts</a></li>
+                            <li><a href = "accessWo.html">View all</a></li>
+                            <li><a href = "accessWo.html">New in</a></li>
+                            <li><a href = "bagsWo.html">Bag & Purses</a></li>
+                            <li><a href = "watchesWo.html">Watches</a></li>
                             <!-- <li><a href = "#">fitness & yoga</a></li> -->
                           </ul>
                         </div>
@@ -152,10 +154,9 @@ let women_Mega_navbar =()=>{
                         <div class = "sub-menu-item">
                           <h4>SHOP BY PRODUCT</h4>
                           <ul>
-                            <li><a href = "#">View all</a></li>
-                            <li><a href = "#">New in</a></li>
-                            <li><a href = "#">Bestsellers</a></li>
-                            <li><a href = "#">Body care</a></li>
+                            <li><a href = "facebodyNewWo.html">New in</a></li>
+                            <li><a href = "skincareWo.html">Skin care</a></li>
+                            <li><a href = "bodycareWo.html">Body care</a></li>
                             <!-- <li><a href = "#">fitness & yoga</a></li> -->
                           </ul>
                         </div>

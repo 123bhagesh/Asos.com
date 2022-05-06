@@ -120,3 +120,24 @@ a{
     transition: all 0.5s ease;
     cursor: pointer;
 }
+#navebar_TopDiv_Mean_Womens>:nth-child(2){
+    width: 110px;
+    /* border: 1px solid violet; */
+    text-align: center;
+    padding-top: 19px;
+    background: rgb(82,80,80);
+    /* padding-bottom: 40px; */
+}
+
+#navebar_TopDiv_Mean_Womens>:nth-child(3){
+    width: 110px;
+    /* border: 1px solid rgb(179, 124, 179); */
+    background-color: rgb(45,45,45);
+    text-align: center;
+    padding-top: 19px;
+    letter-spacing: 2px;
+}
+#navebar_TopDiv_Mean_Womens>:nth-child(3):hover{
+    background: rgb(82,80,80);
+   
+}

@@ -1,4 +1,4 @@
-let women_navbar2 =()=>{
+let women_Mega_navbar =()=>{
     return `
     <div id="mega-Menu-Navbar">
 
@@ -177,4 +177,4 @@ let women_navbar2 =()=>{
 `
 }
 
-export{women_navbar2}
+export{women_Mega_navbar}

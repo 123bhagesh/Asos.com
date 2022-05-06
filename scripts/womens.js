@@ -1,7 +1,7 @@
-import {women_navbar2} from "../components/womennavbar.js"
-console.log(women_navbar2)
+import {women_Mega_navbar} from "../components/womeMegannavbar.js"
+
 let n= document.getElementById("mega-navbar");
-n.innerHTML=women_navbar2()
+n.innerHTML=women_Mega_navbar()
 console.log(n)
 
 

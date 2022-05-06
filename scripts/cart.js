@@ -120,7 +120,7 @@ function appendProducts(asosCart ) {
     document.querySelector("#cartDataAppend").innerHTML='';
 
     alert("Product removed from the cart");
-    // location.reload();
+    location.reload();
     appendProducts(asosCart);
     
     })

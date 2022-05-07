@@ -39,10 +39,9 @@ console.log(fot)
 //  Men-New in Accesssories
 
 let Mens_Clothing =
-[
+[    {"name":"River Island weave reversible belt in black","price":"19","color":"BLACK","image":"https://images.asos-media.com/products/river-island-weave-reversible-belt-in-black/202999012-1-black?$n_480w$&wid=476&fit=constrain"},{"name":"ASOS DESIGN textured belt in cow print","price":"15","color":"MULTI","image":"https://images.asos-media.com/products/asos-design-textured-belt-in-cow-print/201361702-1-multi?$n_480w$&wid=476&fit=constrain"},
     {"name":"River Island weave wallet in black","price":"19","color":"BLACK","image":"https://images.asos-media.com/products/river-island-weave-wallet-in-black/202999009-1-black?$n_480w$&wid=476&fit=constrain"},
     {"name":"Rains 1382 box bag micro in blue river","price":"59","color":"River","image":"https://images.asos-media.com/products/rains-1382-box-bag-micro-in-blue-river/201576921-1-river?$n_480w$&wid=476&fit=constrain"},{"name":"ASOS DESIGN faux leather weave wallet in bright green","price":"13","color":"MID GREEN","image":"https://images.asos-media.com/products/asos-design-faux-leather-weave-wallet-in-bright-green/201606852-1-midgreen?$n_480w$&wid=476&fit=constrain"},
-    {"name":"River Island weave reversible belt in black","price":"19","color":"BLACK","image":"https://images.asos-media.com/products/river-island-weave-reversible-belt-in-black/202999012-1-black?$n_480w$&wid=476&fit=constrain"},{"name":"ASOS DESIGN textured belt in cow print","price":"15","color":"MULTI","image":"https://images.asos-media.com/products/asos-design-textured-belt-in-cow-print/201361702-1-multi?$n_480w$&wid=476&fit=constrain"},
     {"name":"ASOS DESIGN leather wide belt in black with matte black buckle","price":"17","color":"Black","image":"https://images.asos-media.com/products/asos-design-leather-wide-belt-in-black-with-matte-black-buckle/24148581-1-black?$n_480w$&wid=476&fit=constrain"}]
 
 

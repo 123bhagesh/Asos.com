@@ -109,6 +109,11 @@ a{
     border-bottom: none;
     
 }
+#navebar_TopDiv_Mean_Womens>:nth-child(6):hover{
+    /* background: #fff; */
+    color: #000;
+        border: 1px solid rgb(255, 255, 255);
+}
 .header button{
     margin: 1rem;
     font-size: 1rem;

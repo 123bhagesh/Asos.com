@@ -311,8 +311,8 @@ p>a{
     cursor: pointer;
 }
 .indexDiv411 button:hover{
-    background: rgb(185, 173, 11);
-    color: rgb(240, 6, 6);
+    background: black;
+    color: white;
 }
 .indexDiv411 button{
     margin: 1rem;

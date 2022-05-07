@@ -13,11 +13,6 @@ return`
        <a href="https://www.mastercard.co.in/"> <i class="fa-brands fa-cc-mastercard fa-2x"></i></i></a>
        <a href="https://www.paypal.com/"> <i class="fa-brands fa-cc-paypal fa-2x"></i></a>
         <a href="https://www.americanexpress.com/en-in/"><i class="fa-brands fa-cc-amex fa-2x"></i></a>
-
-      
-      
-      
-      
     
 
 </div>

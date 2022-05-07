@@ -68,7 +68,7 @@ let men_Mega_navbar=()=>{
                     <li><a href = "clothingM.html">View all</a></li>
                     <li><a href = "clothingNewM.html">New in</a></li>
                     <li><a href = "shirtM.html">Shirt</a></li>
-                    <li><a href = "jenseM.html">Jense</a></li>
+                    <li><a href = "jenseM.html">Jeans</a></li>
                     <!-- <li><a href = "#">women's shoes</a></li>
                     <li><a href = "#">clothing deals</a></li> -->
                   </ul>

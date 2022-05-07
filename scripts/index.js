@@ -13,7 +13,7 @@ console.log(t)
 
 import {footerBottom} from "../components/footer.js"
 
-let fot= document.getElementById("footerDiv123");
+let fot= document.getElementById("footerDiv124");
 fot.innerHTML=footerBottom()
 console.log(fot)
 
@@ -31,6 +31,14 @@ function gomensPage(){
 
     window.location.href="index.html"
 }
+
+
+// document.getElementById("shopNOW3").addEventListener("click",goWomensPa)
+
+// function goWomensPa(){
+
+//     window.location.href="shirtM.html"
+// }
 
 // search function
 

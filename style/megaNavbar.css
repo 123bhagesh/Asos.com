@@ -267,10 +267,10 @@
         .navbar-nav > li > a{
             border-bottom: none;
             /* margin: 0 0.4rem; */
-            padding: .6rem 1.8rem 1.2rem 0.8rem;
+            padding: .6rem 1.8rem 0.8rem 0.8rem;
             font-size: 0.9rem;
             font-size: 14px;
-            padding-top: 17px;
+            padding-top: 14px;
             letter-spacing: 1px;
         }
         .sub-menu{

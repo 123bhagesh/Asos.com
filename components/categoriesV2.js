@@ -16,10 +16,10 @@ const categories_Sorting=()=>{
     return`
     
     <div id="topNewIn">
-        <div><a href="">NEW IN: CLOTHING</a></div>
-        <div><a href="">NEW IN: SHOES</a></div>
-        <div><a href="">NEW IN: ACCESSORIES</a></div>
-        <div><a href="">NEW IN: FACE + BODY</a></div>
+        <div><a href="clothingNewM.html">NEW IN: CLOTHING</a></div>
+        <div><a href="shoesNewM.html">NEW IN: SHOES</a></div>
+        <div><a href="accessNewM.html">NEW IN: ACCESSORIES</a></div>
+        <div><a href="facebodyM.html">NEW IN: FACE + BODY</a></div>
     </div>
 
     <div id="sortDiv">

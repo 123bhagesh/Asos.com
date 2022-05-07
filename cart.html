@@ -76,7 +76,7 @@
                     <option value="">Express Delivery (£20.00)</option>
                 </select>
             </div>
-            <div id="checkoutDiv"><button><a style="color: white;" href="/checkout.html">CHECKOUT</a></button></div>
+            <div id="checkoutDiv"><button id="checkoutButton">CHECKOUT</button></div>
             <div><img style="width: 285px; margin: auto;" src="/we-Accept-cart-Img.PNG" alt=""></div>
         </div>
     
@@ -91,4 +91,13 @@
 </html>
 
 <script src="/scripts/cart.js" type="module"></script>
+
+<script>
+
+    document.getElementById("checkoutButton").addEventListener("click", checkoutPag)
+
+    function checkoutPag(){
+        window.location.href="checkout.html"
+    }
+</script>
 

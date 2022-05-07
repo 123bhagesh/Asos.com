@@ -1,7 +1,7 @@
 
 #footerDiv1{
     height: 45px;
-    width: 100%;
+    width: 1410px;
     margin: auto;
     padding-top: 10px;
     border: 1px solid rgb(174, 174, 180);
@@ -46,7 +46,7 @@ i{
 }
 #footerDiv2{
     height: 210px;
-    width: 1410px;
+    width: 1415px;
     display: flex;
     /* border: 1px solid red; */
     gap: 35px;
@@ -94,7 +94,6 @@ p>a{
     padding: 15px 125px;
     font-size: 12px;
     background-color: rgb(221,221,221);
-    margin-bottom: 0px;
     /* padding: 4px ; */
 }
 .indexDiv411 button{

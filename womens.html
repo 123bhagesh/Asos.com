@@ -117,15 +117,15 @@
         <div id="indexDiv41">
             
             <div class="indexDiv411">
-                <h2 id="h2child">SPRING SHIRTS</h2>
-                <a >Wavely looks</a>
+                <h2 id="h2child">SURF'S UP</h2>
+                <p >Seas the day</p>
                 <button id="shopNOW3">SHOP NOW</button>
             </div>
             <div class="indexDiv411">
-                <h2 id="h2child">WORD UP</h2>
-                <a >Ft. new ASOS Unrvlld Spply</a>
+                <h2 id="h2child">ASOS LUXE</h2>
+                <p >The luxe life chose you</p>
                 <button style="padding-left: 18px;padding-right: 18px;" id="shopNOW3">SHOP THE BRAND</button>
-
+                         
             </div>
         </div>
     </div>
@@ -199,4 +199,20 @@
 
 <script src="/scripts/womens.js" type="module"></script>
 
-<script src="./scripts/mega-Menu.js" type="module"></script>
+<script>
+
+    document.getElementById("shopNOW3").addEventListener("click",goWomensPa)
+    
+    function goWomensPa(){
+    
+        window.location.href="clothingWo.html"
+    }
+    
+    document.getElementById("indexDiv3").addEventListener("click",goWomensPa)
+    
+    function goWomensPa(){
+    
+        window.location.href="viewallWo.html"
+    }
+    
+    </script>

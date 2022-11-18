@@ -87,6 +87,7 @@ function appendProduct(Mens_Clothing) {
 appendProduct(Mens_Clothing);
 
 document.querySelector("#sorter").addEventListener("click", sortByPrice);
+
 function sortByPrice() {
     Mens_Clothing.map(function (elem) {
         var sorting = document.querySelector("#sorter").value;

@@ -36,3 +36,4 @@ https://frolicking-platypus-d42d1d.netlify.app/
 * Netlify (For deploying the website.)
 
 * GitHub (To work remotely with Team memebers).
+
